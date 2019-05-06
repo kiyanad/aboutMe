@@ -1,33 +1,908 @@
-.App {
+@font-face {
+  font-family: 'MyFont';
+  src: url('./Font/Afterglow-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'paragraphFont';
+  src: url('./Font/paragraph.ttf')
+}
+a {
+  margin-left: 1vw;
+  text-decoration: none;
+
+}
+a:visited {
+    color: black;
+}
+
+/* The Background */
+.background {
+  height: 67vw;
+  width: 100%;
+}
+/* End Background */
+
+/* Cloud Div created with help from "https://developer.mozilla.org" */
+.fancy {
   text-align: center;
+  box-sizing: border-box;
+  width: 6vw;
+  height: 7vw;
+  padding: 6vw 1em 0 1em;
+  margin: 1vw 5vw;
+  position: relative;
+  background-color: white;
+  border-radius: 128% 111% 111% 121%;
+  z-index: 2;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+.fancy::before,
+.fancy::after {
+  content: '';
+  position: absolute;
+  bottom  : 0;
+  z-index : -1;
+  background-color: white;
+  border-radius: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fancy::before {
+  width: 5vw;
+  height: 5vw;
+  left: -3vw;
+}
+
+.fancy::after {
+  width: 6vw;
+  height: 5vw;
+  right: -4vw;
+}
+
+.fancy:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+.fancy:hover:before{
+  background-color: skyblue;
+  cursor: pointer;
+
+}
+
+.fancy:hover:after{
+  background-color: skyblue;
+  cursor: pointer;
+
+}
+
+
+/* End Cloud */
+
+/* NavBar */
+.NavBar, .NavBar2{
+  height: 10vw;
+  width: 100vw;
+  position: relative;
+  display: inline-flex;
+}
+.NavBar2{
+  bottom: 68vw;
+
+}
+
+.nav, .nav2{
+  position: relative;
+  top: -5vw;
+  font-size: 1.4vw;
+  font-family: "MyFont"
+}
+
+.nav2{
+  top: -4vw
+}
+
+a.is-active{
+  color: blue;
+}
+/* End NavBar */
+
+/* Tech Container */
+.mainContainer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.Main{
+  background-image: url("https://i.pinimg.com/originals/c6/15/e3/c615e3687fe7451ff6e4360203f06f86.jpg");
+  background-size: contain;
+  height: 58vw;
+}
+
+.techContainer{
+  width: 29vw;
+  height: 34vw;
+  float: left;
+  position: relative;
+  text-align: center;
+  border: 2vw ridge;
+  border-color: violet;
+  border-style: inset;
+  background-color: mintcream;
+  font-family: 'MyFont';
+
+}
+
+.computer{
+  background: purple;
+  width: 27vw;
+  margin-left: 1vw;
+  background-image: url('./Img/imgg.png');
+  background-size: cover;
+  height: 25vw;
+  background-position: 0vw -4vw;
+
+}
+
+/* .myName{
+  font-size: 2.5vw;
+} */
+/* End TechContainer */
+
+/* latestEntry */
+.entryContainer{
+  position: relative;
+  left: -33vw;
+
+}
+
+.Entry{
+  position: relative;
+  left: 56vw;
+  font-family: 'MyFont';
+
+}
+
+.latestEntry{
+  background: mintcream;
+  width: 58vw;
+  height: 31vw;
+  position: relative;
+  left: 35vw;
+  border-style: ridge;
+  border-color: black;
+  box-shadow: 4vw 2vw 1vw grey;
+}
+
+.title{
+  margin-top: 0vw;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  text-align: -webkit-center;
+}
+
+.author{
+  text-align: -webkit-center;
+}
+
+.thumbnail{
+  padding-left: 10vw;
+  padding-top: 1vw;
+}
+
+.published{
+  margin-left: 1vw;
+}
+
+/* End latestEntry */
+
+
+.header{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  font-family: 'MyFont';
+  font-size: 2.3vw;
+  margin-left: 1vw;
+
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.aboutMe {
+  position: relative;
+  border-style: dotted;
+  border-radius: 2vw;
+  width: 97%;
+  bottom: -3vw;
+left: 1vw;
+}
+
+.firstParagraph, .secondParagraph{
+  text-indent: 3vw;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+
+
+}
+
+
+/* s */
+.fade{
+  height: 10vw;
+
+}
+
+.goalsContainer{
+  height: 100%;
+position: relative;
+}
+
+.description{
+  position: relative;
+  border-style: dotted;
+  border-radius: 2vw;
+  width: 97%;
+left: 1vw;
+text-align: center;
+top: -8vw;
+
+
+
+}
+
+.dream{
+  font-size: 1.8vw;
+line-height: 3vw;
+margin-left: 3vw;
+margin-right: 2vw;
+font-family: 'paragraphFont'
+
+}
+
+.goal-Container{
+  background-image: url("https://i.pinimg.com/originals/c6/15/e3/c615e3687fe7451ff6e4360203f06f86.jpg");
+  background-size: cover;
+
+}
+
+.myGoals{
+
+}
+
+.quote {
+  margin-top: 10%;
+  height: 15vw;
+  width: 75vw;
+  position: relative;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  line-height: 1.5;
+  bottom: 10vw;
+  left: 14vw;
+  border-radius: 2vw;
+
+}
+.quote-text::before,
+.quote-text::after {
+   content: "“";
+   font-family: Georgia;
+   font-size: 5vw;
+   margin: -2rem 0 0 -4rem;
+   position: absolute;
+   opacity: 0.5;
 }
 
-.App-link {
-  color: #61dafb;
+.quote-text::after {
+   content: "”";
+   margin: -1rem -4rem 0 0;
+}
+.quote::before {
+	position: absolute;
+	content: '';
+	border-radius: 2em;
+	height: 5px;
+	background: linear-gradient(to right, rgba(254, 241, 96, .05), rgba(254, 241, 96, 1));
+	width: 0;
+	top: 0;
+	left: 0;
+	animation: quote 8s infinite;
+}
+@keyframes quote {
+	0% {
+    width: 0;
+  }
+  20% {
+    width: calc(100% / 2);
+  }
+	70% {
+		opacity: 1;
+  }
+	100% {
+    width: calc(100% / 3);
+		opacity: 0;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.quote::after {
+	position: absolute;
+	content: '';
+	height: 5px;
+	border-radius: 2em;
+	background: linear-gradient(to left, rgba(135,206,250, .05), rgba(135,206,250, 1));
+	width: 0;
+	bottom: 0;
+	right: 0;
+	animation: quote-after 8s infinite;
+}
+@keyframes quote-after {
+	0% {
+    width: 0;
   }
-  to {
-    transform: rotate(360deg);
+  20% {
+    width: calc(100% * 2/3);
   }
+	70% {
+		opacity: 1;
+  }
+	100% {
+    width: calc(100% * 2/4);
+		opacity: 0;
+  }
+}
+
+.quote-text{
+  font-size: 1.7vw;
+margin-left: 2vw;
+margin-right: 4vw;
+position: relative;
+top: 2.5vw;
+
+}
+
+.quote-author{
+font-style: italic;
+}
+
+
+.teach-pic{
+  background-image: url('./Img/teach.jpg');
+  height: 22vw;
+width: 38vw;
+float: left;
+background-position: ;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+top: 1vw;
+
+}
+
+.heading{
+  position: relative;
+left: 1vw;
+font-size: 2.2vw;
+font-family:'MyFont'
+}
+
+.teach-p{
+  position: relative;
+left: 1vw;
+font-size: 1.3vw;
+margin-right: 2vw
+}
+
+.fade{
+  border-style: outset;
+    border-radius: 1vw;
+    box-shadow: 4vw 2vw 1vw grey;
+    height: 25vw;
+    top: -4vw;
+    position: relative;
+
+}
+
+.myGoals{
+  position: relative;
+    top: -5vw;
+}
+
+.build-pic{
+  background-image: url('./Img/build.jpg');
+  height: 18vw;
+  width: 38vw;
+  float: right;
+  background-position: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -4.5vw;
+  right: 1vw;
+}
+
+.build-p{
+  float: left;
+  width: 59vw;
+position: relative;
+    left: 1vw;
+    font-size: 1.3vw;
+    margin-right: 2vw;
+}
+
+.second{
+  box-shadow: -2vw 2vw 1vw grey;
+  height: 22vw;
+
+}
+.create-pic{
+  background-image: url('./Img/create.jpg');
+  height: 24vw;
+  width: 35vw;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2vw;
+}
+
+.create-p{
+  width: 62vw;
+position: relative;
+    left: 1vw;
+    font-size: 1.3vw;
+    margin-right: 2vw;
+    float: right;
+}
+.third{
+  height: 27vw;
+}
+
+.inspire-pic{
+  background-image: url("./Img/inspire.jpg");
+  height: 23vw;
+  width: 34vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -4.5vw;
+  float: right;
+}
+
+
+.inspire-p{
+  float: left;
+  width: 59vw;
+position: relative;
+    left: 1vw;
+    font-size: 1.3vw;
+    margin-right: 2vw;
+}
+.fourth{
+  height: 27vw;
+}
+
+/* End Goals */
+
+/* Project */
+.project-Container{
+  background-image: url("https://i.pinimg.com/originals/c6/15/e3/c615e3687fe7451ff6e4360203f06f86.jpg");
+  background-size: cover;
+  height: 100%;
+
+}
+
+.project-tab{
+  height: 61vw;
+}
+
+.proj-desc{
+height: 55vw;
+position: relative;
+border-top-style: ridge;
+}
+
+.projContainer{
+width: 48.6vw;
+float: right;
+height: auto;
+position: relative;
+top: 3vw;
+border-style: dashed;
+padding-bottom: 1vw;
+right: 2vw
+}
+/* End PRoject */
+
+
+#video{
+  height: 40vw;
+width: 50vw;
+object-fit: fill;
+position: relative;
+left: 18vw;
+}
+
+#samp{
+  float: left;
+  height: 24vw;
+height: 24vw;
+width: 48vw;
+top: 3vw;
+position: relative;
+
+}
+
+.list{
+      width: 47vw;
+      margin-left: 1vw;
+}
+li{
+  font-size: 1.4vw;
+  list-style: none;
+}
+  li::before {
+    content: "\2606  ";
+    color: black
+  }
+
+  .brawl{
+    font-size: 1.6vw;
+    float: right;
+    width: 47vw;
+    margin-left: 1vw;
+    text-indent: 4vw;
+
+
+  }
+
+  .marvel{
+    font-family: 'MyFont';
+    text-align: -webkit-center;
+    margin-bottom: 1vw;
+    font-size: 4vw;
+  }
+
+/* .marvel-brawl{
+  background: gray;
+height: 55vw;
+position: relative;
+top: 6vw;
+} */
+
+/* Habit tracker */
+.journal{
+    font-family: 'MyFont';
+    text-align: -webkit-center;
+    margin-bottom: 1vw;
+    font-size: 4vw;
+
+}
+
+.bullet{
+  font-size: 1.6vw;
+  float: right;
+  width: 47vw;
+  margin-left: 1vw;
+  text-indent: 4vw;
+
+
+}
+/* End Tracker */
+
+/* Robot */
+.robot{
+    font-family: 'MyFont';
+    text-align: -webkit-center;
+    margin-bottom: 1vw;
+    font-size: 4vw;
+
+}
+
+.ap{
+  font-size: 1.6vw;
+  width: 47vw;
+  margin-left: 1vw;
+  text-indent: 4vw;
+
+
+}
+/* End Robot */
+
+/* PROJECT NAV  */
+.project-nav{
+  display: inline-flex;
+
+}
+
+.project{
+height: 5vw;
+width: 12vw;
+font-size: 2.5vw;
+padding-top: 2vw;
+padding-left: 1vw;
+border-style: ridge;
+border-bottom-style: none;
+background: skyblue;
+
+}
+.button1{
+height: 5vw;
+width: 15vw;
+font-size: 2.5vw;
+padding-top: 2vw;
+padding-left: 1vw;
+border-style: ridge;
+border-bottom-style: none;
+border-left-style: none;
+background: white;
+
+}
+.button1:hover, .button2:hover, .button3:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+.button1:active, .button2:active, .button3:active {
+  background-color: skyblue;
+  cursor: pointer;
+}
+.button2{
+height: 5vw;
+width: 15vw;
+font-size: 2.5vw;
+padding-top: 2vw;
+padding-left: 1vw;
+border-style: ridge;
+border-bottom-style: none;
+border-left-style: none;
+background: white;
+
+}
+
+.button3{
+height: 5vw;
+width: 21vw;
+font-size: 2.5vw;
+padding-top: 2vw;
+padding-left: 1vw;
+border-style: ridge;
+border-bottom-style: none;
+border-left-style: none;
+background: white;
+
+}
+
+/* END PROJECT NAV */
+
+
+#whole{
+  height: 67vw;
+  background-image: url("https://i.pinimg.com/originals/c6/15/e3/c615e3687fe7451ff6e4360203f06f86.jpg");
+    background-size: contain;
+}
+
+
+/* Goals for Phones */
+/* Iphone X */
+@media only screen and (max-width: 900px) {
+.goal-Container {
+  width: 100vw;
+}
+
+.fancy {
+  margin: 1vw 4vw;
+    width: 2vw;
+    height: 4vw;
+
+}
+.fancy::before{
+width: 3vw;
+height: 4vw;
+left: -2vw;
+}
+
+.fancy::after {
+    width: 4vw;
+    height: 4vw;
+    right: -3vw;
+}
+
+.nav2, .nav{
+  left: -1vw;
+
+}
+
+.quote{
+  height: 19vw;
+    width: 61vw;
+    left: 27vw;
+
+}
+
+.quote-text {
+    top: 3.5vw;
+    left: -5vw;
+}
+
+.quote-author {
+    font-style: italic;
+    font-size: 2vw;
+    top: -3vw;
+    position: relative;
+}
+
+.description{
+  width: 95%;
+}
+
+.fade{
+  width: 95vw;
+  height: 26vw;
+}
+
+.teach-p{
+  float: right;
+  width: 55vw;
+top: -2vw;
+
+}
+
+.teach-pic{
+  height: 24vw;
+  width: 36vw;
+float: left;
+top: 1vw;
+}
+
+.build-p{
+  width: 54vw;
+
+}
+
+.build-pic{
+  height: 22vw;
+
+}
+.second{
+  height: 26vw;
+
+}
+
+.create-p{
+  width: 58vw;
+  top: -3vw;
+
+}
+
+.create-pic{
+  height: 22vw;
+
+}
+
+.inspire-p{
+  width: 59vw;
+  top: -2vw;
+
+}
+
+.inspire-pic{
+  height: 23vw;
+
+}
+
+#samp{
+height: 37vw;
+    width: 77vw;
+  }
+
+.project-Container{
+  height: 116vw;
+
+}
+
+.projContainer{
+width: 71.6vw;
+top: 5vw;
+right: 25vw;
+}
+
+.brawl, .bullet{
+  float: none;
+  width: 69vw;
+
+}
+
+.aboutMe{
+  width: 95%;
+
+}
+
+#whole{
+  height: 75vw;
+
+}
+
+.header{
+  font-size: 1.85vw;
+
+}
+
+.techContainer{
+  width: 23vw;
+height: 37vw;
+}
+
+.latestEntry{
+  width: 45vw;
+  left: 46vw;
+
+
+}
+
+.myName{
+  font-size: 2vw;
+
+}
+
+.portfolio{
+  font-size: 1.5vw;
+
+}
+
+.computer{
+  width: 21vw;
+
+}
+
+.Entry{
+  left: 56vw;
+
+}
+
+.title{
+  font-size: 2vw;
+
+}
+
+.author{
+  font-size: 1.4vw;
+
+}
+
+.thumbnail{
+  width: 25vw;
+
+}
+
+.link{
+  font-size: 2vw;
+position: relative;
+top: -2vw;
+}
+
+.published{
+  font-size: 1.4vw;
+position: relative;
+top: -2vw;
+
+}
 }
