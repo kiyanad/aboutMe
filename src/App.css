@@ -519,6 +519,7 @@ height: 55vw;
 position: relative;
 border-top-style: ridge;
 top: 2vw;
+border-color: springgreen;
 
 }
 
@@ -646,6 +647,8 @@ padding-left: 1vw;
 border-style: ridge;
 border-bottom-style: none;
 background: skyblue;
+    border-radius: 2vw 2vw 0vw 0vw;
+    border-color: springgreen;
 
 }
 .button1{
@@ -660,6 +663,8 @@ border-style: ridge;
 border-bottom-style: none;
 border-left-style: none;
 background: white;
+    border-radius: 2vw 2vw 0vw 0vw;
+    border-color: springgreen;
 
 }
 .button1:hover, .button2:hover, .button3:hover {
@@ -683,6 +688,8 @@ border-style: ridge;
 border-bottom-style: none;
 border-left-style: none;
 background: white;
+    border-radius: 2vw 2vw 0vw 0vw;
+    border-color: springgreen;
 
 }
 
@@ -699,7 +706,8 @@ border-style: ridge;
 border-bottom-style: none;
 border-left-style: none;
 background: white;
-
+    border-radius: 2vw 2vw 0vw 0vw;
+    border-color: springgreen;
 }
 
 /* END PROJECT NAV */
