@@ -110,6 +110,9 @@ render(){
       </div>
     </div>
   </div>
+<div id="footer">
+<img id="copy" src="https://www.alt-codes.net/images/copyright-symbol.png" /> <p id="foot">2019 Kiyana Dunlock</p>
+</div>
 </div>
   );
 }

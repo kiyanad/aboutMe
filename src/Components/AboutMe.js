@@ -67,6 +67,9 @@ When I got into college I was thrilled to be studying Psychology but shortly aft
 
 </p>
 </div>
+<div id="footer2">
+<img id="copy" src="https://www.alt-codes.net/images/copyright-symbol.png" /> <p id="foot">2019 Kiyana Dunlock</p>
+</div>
     </div>
   )
 }

@@ -91,7 +91,7 @@ render(){
       <div className = "week week2">
         <li><b>Week 4-6</b><i>Module 2</i>: </li>
         <ul>
-          <li> Web Frameworkd </li>
+          <li> Web Frameworks </li>
           <ul>
             <li> Sinatra </li>
             <li> Rails </li>
@@ -152,6 +152,9 @@ render(){
     I absolutely had to add this because I had to talk about it somewhere. I love debugging. I was  a very adamant user of Binding.pry, Byebug and Debugger. My coaches at Flatiron would always point out how important I thought debugging was. I strongly believe that debugging is probably one of the most beneficial things you can do for yourself especially as a new programmer. I think it’s important to just throw in a debugging tool just to see and play around with the information that is being received. Being able to see the different variables really gives you a different perspective and understanding of how you can manipulate these to do what you want. I think of debugging as just simply checking your work, why not?
     </p>
   </div>
+</div>
+<div id="footer5">
+<img id="copy" src="https://www.alt-codes.net/images/copyright-symbol.png" /> <p id="foot">2019 Kiyana Dunlock</p>
 </div>
 </div>
   )

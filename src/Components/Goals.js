@@ -145,6 +145,9 @@ I was 23 when I started at The Flatiron School and I didn’t really know what t
 <div className = "inspire-pic" />
 </div>
     </div>
+    <div id="footer3">
+    <img id="copy" src="https://www.alt-codes.net/images/copyright-symbol.png" /> <p id="foot">2019 Kiyana Dunlock</p>
+    </div>
     </div>
   )
 }
