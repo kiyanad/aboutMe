@@ -1214,9 +1214,9 @@ height: 37vw;
 }
 
 .projContainer{
-  width: 96.6vw;
-  top: 5vw;
-  right: 4vw;
+  width: 93.6vw;
+      top: 5vw;
+      right: 8vw;
 }
 
 .brawl, .bullet, .ap{
@@ -1285,7 +1285,7 @@ top: 7vw;
 }
 
 .header{
-  font-size: 2.4vw;
+  font-size: 2.3vw;
 
 }
 
