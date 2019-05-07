@@ -109,9 +109,10 @@ class Project extends Component {
         title='video'
 />
          <div className="projContainer">
-         <p className="brawl">Marvel Brawl was my first real application that I created utelizing what I had learned about javascript and react in the few weeks prior. I was very proud of this application because it demonstrated my understanding of javascript and how it worked. It also demonstrated my comfortability using React as a framework for my front-end applications. This project was the first project that showed me how to bring ideas to life with CSS. The character cards that pop-up when a card is flipped was actually drawn out initially in photoshop by my amazing partner(whom did an excellent job on the backend using Ruby on Rails but we never connected the two) and I not only shocked him and everyone else but I shocked myself when I was able to create an almost exact replica using CSS. This is the application that shows my introduction to styling and animation in web applications.</p>
+         <p className="brawl">Marvel Brawl was my first real application that I created utilizing what I had learned about JavaScript and React in the few weeks prior. I was very proud of this application because it demonstrated my understanding of JavaScript and how it worked. It also demonstrated my comfortability using React as a framework for my front-end applications. This project was the first project that showed me how to bring ideas to life with CSS. The character cards that pop-up when a card is flipped was actually drawn out initially in Photoshop by my amazing partner (whom did an excellent job on the backend using Ruby on Rails but we never connected the two) and I not only shocked him and everyone else but I shocked myself when I was able to re-create an almost exact replica using CSS. This is the project that shows my introduction to styling and animation in web applications.
+</p>
          <div className="list">
-         <li>I experimented with jquery and many different javascript libraries, learning how to implement them in react </li>
+         <li>I experimented with jQuery and many different JavaScript libraries, learning how to implement them in React </li>
          <li> I created the entire layout of the site using CSS </li>
          <li> I implemented drag-and-drop functionality </li>
          <li> I used Fetch to obtain data from an external API </li>
@@ -125,14 +126,15 @@ class Project extends Component {
            <h1 className="journal"> Bullet Journal </h1>
 <iframe id="samp" src="https://www.youtube.com/embed/ujI_NfMKshg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div className="projContainer">
-            <p className="bullet">The bullet journal was my final project at Flatiron school, where I used everything I had learned in the past 12 weeks to build a fully functioning web application. I believe the bullet journal shows how much further I had gotten using Javascript and writing CSS. I was more comfortable implementing different functionality and utelizing different tools that were available to me. I had to use what I learned in order to learn how to implement the things I wanted in my application.   </p>
+            <p className="bullet">The bullet journal was my final project at Flatiron school, where I used everything I had learned in the past 12 weeks to build a fully functioning web application compete with a frontend and a backend. I also had to implement User Authentication using JWT as well as routes. I believe the bullet journal shows how much further I had gotten using JavaScript and writing CSS. I was more comfortable implementing different functionality and utilizing different tools that were available to me. I had to use what I learned in order to learn how to implement the things I wanted in my application.
+  </p>
             <div className="list">
-            <li> I used many Javascript libraires such as date.fns and implemented them in my application </li>
-            <li> I carefully read and followeed the documentation to be able to adjust the functionality from the liraries to cater to what I needed </li>
-            <li> I was able to create a front-end application using React.js  that save s data to a backend I created using Ruby on Rails. </li>
-            <li> Implemented JWT for User authentication and Sign in </li>
+            <li> I used many JavaScript libraries  such as date.fns and implemented them in my application </li>
+            <li> I carefully read and followed the documentation to be able to adjust the functionality from the libraries  to cater to what I needed </li>
+            <li> I was able to create a front-end application using React.js  that saves data to a backend I created using Ruby on Rails. </li>
+            <li> Implemented JWT for User Authentication and Sign in </li>
             <li> Used Fetch both pessimisticaly and optimistically </li>
-            <li> Utelized my strong debugging skills to tackle problems </li>
+            <li> Utilized my strong debugging skills to tackle problems </li>
             </div>
             </div>
             </div>:
@@ -145,13 +147,14 @@ class Project extends Component {
       <div className = "robot-ap">
 <iframe id="samp" src="https://www.youtube.com/embed/6lrCnD7Zw9o?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        <div className="projContainer">
-       <p className="ap"> My Robot Apocalypse app was really me trying to step out of my comfort zone and do something I had never done before. I always wanted to create a choose your own adventure game but I wasnt sure of how to do that exactly yusing React and Rails. Unfortunately when I looked online for resources I quickly learned that this is not a common task for developers. I didnt let that stop me and I countinued on to creating the project. This project was a bit more difficult for me because I had to implement a lot of game logic that I wasnt used to. I created a flow chart online to try and help me remember the paths as they soon started to grow way out of control.</p>
+       <p className="ap"> My Robot Apocalypse app was really me trying to step out of my comfort zone and do something I had never done before. I always wanted to create a choose your own adventure game but I wasn’t sure of how to do that exactly using React and Ruby on Rails. Unfortunately, when I looked online for resources I quickly learned that this is not a common task for developers. I didn’t let that stop me and I continued on to creating the project. This project was a bit more difficult for me because I had to implement a lot of game logic that I wasn’t used to. I created a flow chart online to try and help me remember the paths as they soon started to grow way out of control.
+</p>
        <div className="list">
-       <li> I used my knowledge of javascript to iterate throught information and take out what only what I needed.</li>
-       <li> Used rails to build a backend for all the choices and robots </li>
-       <li> Used my knowledge of rails to structure my backend to be able to give my frontend exactly what it needs</li>
+       <li> I used my knowledge of javascript to iterate through information and take out only what I needed</li>
+       <li> Used Ruby on Rails to build a backend for all the choices and robots </li>
+       <li> Used my knowledge of Ruby on Rails to structure my backend to be able to give my frontend exactly what it needed</li>
        <li> Created multiple story lines and paths for the users </li>
-       <li> Utelized my strong debugging skills to tackle problems </li>
+       <li> Utilized my strong debugging skills to tackle problems </li>
        </div>
        </div>
        </div>

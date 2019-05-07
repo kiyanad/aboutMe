@@ -1053,8 +1053,9 @@ color: blueviolet;
 
 @media only screen and (max-width: 400px) {
   .Main{
-    height: 105vh;
+    height: 108vh;
     background-size: cover;
+    width: 108vw;
 
   }
 .goal-Container {
@@ -1062,7 +1063,7 @@ color: blueviolet;
 }
 
 .fancy {
-  margin: 1vw 4vw;
+  margin: 1vw 3.6vw;
   width: 2vw;
   height: 8vw;
 }
@@ -1270,6 +1271,8 @@ top: 7vw;
 .aboutMe{
   width: 90%;
   height: 92vh;
+  bottom: 1vw;
+
 
 }
 
@@ -1294,6 +1297,8 @@ top: 7vw;
 .techContainer{
   width: 92vw;
   height: 40vw;
+  left: 2vw;
+
 }
 .entryContainer {
     position: relative;
@@ -1401,11 +1406,15 @@ background: skyblue;
   font-size: 3.6vw;
   line-height: 4vw;
   top: 5vw;
+  width: 101vw;
+
 
 }
 
 .intro{
   font-size: 3.6vw;
+  width: 97vw;
+
 
 }
 
@@ -1513,7 +1522,7 @@ li{
 
 .week1, .week2, .week3, .week4{
 float: none;
-width:auto;
+width: 93vw;
 }
 
 .week4{
@@ -1522,7 +1531,47 @@ width:auto;
 
 .flatiron{
   height: 215vh;
+  width: 109vw;
 
 }
+
+.intro {
+    font-size: 3.6vw;
+    width: 97vw;
+    margin-left: 2vw;
 }
+
+.firstParagraph, .secondParagraph {
+  font-size: 3.2vw;
+  }
+
+  .description {
+    width: 91%;
+}
+
+.projContainer {
+    width: 92.6vw;
+    top: 5vw;
+    right: 8vw;
+}
+
+.brawl, .bullet, .ap {
+    width: 92vw;
+}
+
+.week1 {
+    position: relative;
+    bottom: 2vw;
+}
+
+.week2 {
+    top: 1vw;
+}
+
+.week3 {
+    top: 4vw;
+}
+}
+
+
 /* end */
