@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import { NavLink} from 'react-router-dom';
+import NavBar from 'react-bootstrap';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import "video-react/dist/video-react.css";
-import { Player } from 'video-react';
-import video from '../Img/marvel2.mov'
-import video2 from '../Img/HabitTracker.mov'
 
 
 
@@ -73,17 +71,21 @@ class Project extends Component {
       </p>
       </div>
       </NavLink>
-
-      <div className = "fancy">
+      <a href="//github.com/kiyanad"><div className = "fancy">
       <p className="nav2">
       GitHub
       </p>
       </div>
+</a>
+      <NavLink activeClassName='is-active' to='/flatiron'>
       <div className = "fancy">
       <p className="nav">
       Flatiron School
       </p>
       </div>
+      </NavLink>
+
+
 
       </nav>
       <div className="project-tab">
@@ -99,10 +101,13 @@ class Project extends Component {
       {this.state.marvel?
         <div>
          <h1 className="marvel"> Marvel Brawl </h1>
-        <video id="samp" width="640" height="580" controls>
-             <source id="video" src = {video} type="video/mp4">
-             </source>
-         </video>
+
+         <iframe id="samp" src='https://www.youtube.com/embed/gbkFtqV2Hng'
+        frameBorder='0'
+        allow='autoplay; encrypted-media'
+        allowFullScreen
+        title='video'
+/>
          <div className="projContainer">
          <p className="brawl">Marvel Brawl was my first real application that I created utelizing what I had learned about javascript and react in the few weeks prior. I was very proud of this application because it demonstrated my understanding of javascript and how it worked. It also demonstrated my comfortability using React as a framework for my front-end applications. This project was the first project that showed me how to bring ideas to life with CSS. The character cards that pop-up when a card is flipped was actually drawn out initially in photoshop by my amazing partner(whom did an excellent job on the backend using Ruby on Rails but we never connected the two) and I not only shocked him and everyone else but I shocked myself when I was able to create an almost exact replica using CSS. This is the application that shows my introduction to styling and animation in web applications.</p>
          <div className="list">
@@ -118,10 +123,7 @@ class Project extends Component {
          {this.state.habit?
            <div>
            <h1 className="journal"> Bullet Journal </h1>
-           <video id="samp" width="640" height="580" controls>
-                <source id="video" src = {video2} type="video/mp4">
-                </source>
-            </video>
+<iframe id="samp" src="https://www.youtube.com/embed/ujI_NfMKshg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div className="projContainer">
             <p className="bullet">The bullet journal was my final project at Flatiron school, where I used everything I had learned in the past 12 weeks to build a fully functioning web application. I believe the bullet journal shows how much further I had gotten using Javascript and writing CSS. I was more comfortable implementing different functionality and utelizing different tools that were available to me. I had to use what I learned in order to learn how to implement the things I wanted in my application.   </p>
             <div className="list">
@@ -141,10 +143,7 @@ class Project extends Component {
       <h1 className="robot"> Robot Apocalypse </h1>
 
       <div className = "robot-ap">
-      <video id="samp" width="640" height="580" controls>
-           <source id="video" src = {video2} type="video/mp4">
-           </source>
-       </video>
+<iframe id="samp" src="https://www.youtube.com/embed/6lrCnD7Zw9o?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        <div className="projContainer">
        <p className="ap"> My Robot Apocalypse app was really me trying to step out of my comfort zone and do something I had never done before. I always wanted to create a choose your own adventure game but I wasnt sure of how to do that exactly yusing React and Rails. Unfortunately when I looked online for resources I quickly learned that this is not a common task for developers. I didnt let that stop me and I countinued on to creating the project. This project was a bit more difficult for me because I had to implement a lot of game logic that I wasnt used to. I created a flow chart online to try and help me remember the paths as they soon started to grow way out of control.</p>
        <div className="list">

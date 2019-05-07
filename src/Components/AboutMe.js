@@ -44,11 +44,13 @@ Projects
 GitHub
 </p>
 </div>
+<NavLink activeClassName='is-active' to='/flatiron'>
 <div className = "fancy">
 <p className="nav">
 Flatiron School
 </p>
 </div>
+</NavLink>
 
 </nav>
 <div className = "aboutMe">

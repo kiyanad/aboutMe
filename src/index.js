@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import AboutMe from './Components/AboutMe'
 import Goals from './Components/Goals'
 import Projects from './Components/Projects'
+import Flatiron from './Components/Flatiron'
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 const routing = (
@@ -15,6 +16,7 @@ const routing = (
       <Route path="/aboutme" component={AboutMe} />
       <Route path="/goals" component={Goals} />
       <Route path="/projects" component={Projects} />
+      <Route path="/flatiron" component={Flatiron} />
 
 
     </div>
