@@ -12,7 +12,11 @@ import 'aos/dist/aos.css';
 
 
 class Flatiron extends Component {
-
+  componentDidMount(){
+  AOS.init({
+    duration : 2000
+  })
+}
 render(){
 
   return(
