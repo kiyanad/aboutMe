@@ -13,7 +13,7 @@ class App extends Component {
   }
   componentDidMount(){
     // FETCH FOR MEDIUM BLOG POST
-    fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@lilkiki320")
+    fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kiyanadunlock")
       .then((res) => res.json())
       .then((data) => {
           const res = data.items
