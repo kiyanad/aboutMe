@@ -120,7 +120,7 @@ render(){
     </div>
   </div>
   <p className="flat-desc">
-    I must admit, when I initially learned of Flatirons 6% acceptance right I was not too confident in my chances. I was working full time and their pre-work course load was already extremely heavy. Thankfully I managed my time well and was able to get through all of it in the month before class. I also had to undergo both a personal and technical interview as well which was completely new to me. Even when I came to class the first day I <i>STILL</i> didn’t feel like I belonged. I felt like I was surrounded by tech geniuses and I was an imposter<i>(Hint Hint)</i>. I appreciated that during our introduction presentation Imposter Syndrome was something that was talked about because I feel I still get this feeling to this day and it’s nice to know I’m not alone. All in all, yes I did go to Flatiron to learn different programming languages but I lucked out by gaining so much more.
+    I must admit, when I initially learned of Flatirons 6% acceptance rate I was not too confident in my chances. I was working full time and their pre-work course load was already extremely heavy. Thankfully I managed my time well and was able to get through all of it in the month before class. I also had to undergo both a personal and technical interview as well which was completely new to me. Even when I came to class the first day I <i>STILL</i> didn’t feel like I belonged. I felt like I was surrounded by tech geniuses and I was an imposter<i>(Hint Hint)</i>. I appreciated that during our introduction presentation Imposter Syndrome was something that was talked about because I feel I still get this feeling to this day and it’s nice to know I’m not alone. All in all, yes I did go to Flatiron to learn different programming languages but I lucked out by gaining so much more.
   </p>
   <div data-aos="flip-left" data-aos-duration="1000"     data-aos-delay="400">
   <div className = "flat">
@@ -128,7 +128,7 @@ render(){
       Teamwork
     </h1>
     <p className="work">
-      Flatiron not only taught me the importance of being able to work on a team but also how to effectively work with all different types of people. I valued that we had seminars where we learned different communication techniques and how to effectively work in groups. We had many partner projects where I've worked one-on one with all of my cohort mates at least once. I learned that working well with different types of people really strengthens your ability to be an effective team leader. <i>"Alone we can do so little; together we can do so much."</i> -Helen Keller
+      Flatiron not only taught me the importance of being able to work on a team but also how to effectively work with all different types of people. I valued that we had seminars where we learned different communication techniques and how to effectively work in groups. We had many partner projects where I've worked one-on-one with all of my cohort mates at least once. I learned that working well with different types of people really strengthens your ability to be an effective team leader. <i>"Alone we can do so little; together we can do so much."</i> -Helen Keller
     </p>
   </div>
 </div>

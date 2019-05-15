@@ -8,6 +8,12 @@ import { NavLink} from 'react-router-dom';
 
 
 class AboutMe extends Component {
+  componentDidMount(){
+    var http = require("http");
+setInterval(function() {
+    http.get("http://<your app name>.herokuapp.com");
+}, 300000); // every 5 minutes (300000)
+  }
 render(){
   return(
     <div id="whole">
