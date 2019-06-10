@@ -7,6 +7,8 @@
   font-family: 'paragraphFont';
   src: url('./Font/paragraph.ttf')
 }
+
+
 a {
   margin-left: 1vw;
   text-decoration: none;
@@ -111,7 +113,7 @@ a.is-active{
 
 /* Tech Container */
 .mainContainer{
-  display: flex;
+  /* display: inline-grid; */
 }
 
 .Main{
@@ -153,20 +155,21 @@ a.is-active{
 /* latestEntry */
 .entryContainer{
   position: relative;
-  left: -33vw;
+  left: -20vw;
+  float: left;
 
 }
 
 .Entry{
   position: relative;
-  left: 56vw;
+  left: 49vw;
   font-family: 'MyFont';
 
 }
 
 .latestEntry{
   background: mintcream;
-  width: 58vw;
+  width: 46vw;
   height: 31vw;
   position: relative;
   left: 35vw;
@@ -190,6 +193,8 @@ a.is-active{
 .thumbnail{
   padding-left: 10vw;
   padding-top: 1vw;
+  max-width: 23vw;
+
 }
 
 .published{
@@ -201,16 +206,20 @@ a.is-active{
 /* footer */
 #footer, #footer2, #footer3, #footer4, #footer5{
   position: relative;
-top: 8vw;
+  top: 46vw;
+  right: 79vw;}
+#footer2, #footer3, #footer4, #footer5{
+  right: 0vw;
+
 }
 
 #footer2{
-top: 11vw;
-
+  top: 11vw;
 }
 
 #footer3{
 top: -.7vw;
+
 
 }
 
@@ -220,7 +229,7 @@ top: 3.4vw;
 }
 
 #footer5{
-top: 5vw;
+top: 9vw;
 
 }
 
@@ -973,7 +982,7 @@ top: -2vw;
 .flatiron{
   background-image: url("https://i.pinimg.com/originals/c6/15/e3/c615e3687fe7451ff6e4360203f06f86.jpg");
   background-size: contain;
-  height: 133vw;
+  height: 135vw;
 }
 
 .weeks{
@@ -1615,5 +1624,11 @@ width: 93vw;
 }
 }
 
+
+.secondContainer{
+  display: flex;
+  float: left;
+
+}
 
 /* end */
