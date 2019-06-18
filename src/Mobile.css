@@ -1,0 +1,535 @@
+@font-face {
+  font-family: 'myFont';
+  src: url("./font.ttf")
+}
+
+@font-face {
+  font-family: 'mySecondFont';
+  src: url("./nextFont.ttf")
+}
+
+@font-face {
+  font-family: 'myThirdFont';
+  src: url("./brush.ttf")
+}
+
+@font-face {
+  font-family: 'myFourthFont';
+  src: url("./minimal.otf")
+}
+
+ body{
+  background-color: #282c34;
+
+}
+
+.myName{
+  text-align: center;
+  font-family: mySecondFont;
+  font-size: 4em;
+  bottom: 11vw;
+  position: relative;
+  text-shadow: 0px 0px rgba(255,255,255,0.06);
+  color: transparent;
+  background-size: 442vw;
+    background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1, #6bd16f, #8ac44c, #a4b52b, #bca40c, #d09100, #e47f16, #f4692e, #ff5147, #ff3b6f, #ff319c, #ff42cc);
+    background-clip: text;
+    animation-name: move;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes move {
+  100%{background-position: 1010vw;}
+
+}
+
+.divider{
+  width: 71vw;
+position: relative;
+left: 13.4vw;
+top: -11vw;
+}
+
+.quote {
+  margin-top: 10%;
+  height: 15vw;
+  width: 75vw;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  bottom: 20vw;
+  left: 14vw;
+  border-radius: 2vw;
+  color: white;
+
+
+}
+.quote-text::before,
+.quote-text::after {
+   content: "“";
+   font-family: Georgia;
+   font-size: 5vw;
+   margin: -2rem 0 0 -4rem;
+   position: absolute;
+   opacity: 0.5;
+   color: white;
+
+}
+
+.quote-text::before{
+  top: 7vw;
+  left: 16vw;
+}
+
+.quote-text::after {
+   content: "”";
+   margin: -1rem -4rem 0 0;
+   top: 16vw;
+
+}
+.quote::before {
+	position: absolute;
+	content: '';
+	border-radius: 2em;
+	height: 5px;
+	background: linear-gradient(to right, rgba(254, 241, 96, .05), rgba(254, 241, 96, 1));
+	width: 0;
+	top: 0;
+	left: 0;
+	animation: quote 8s infinite;
+}
+@keyframes quote {
+	0% {
+    width: 0;
+  }
+  20% {
+    width: calc(100% / 2);
+  }
+	70% {
+		opacity: 1;
+  }
+	100% {
+    width: calc(100% / 3);
+		opacity: 0;
+  }
+}
+
+.quote::after {
+	position: absolute;
+	content: '';
+	height: 5px;
+	border-radius: 2em;
+	background: linear-gradient(to left, rgba(135,206,250, .05), rgba(135,206,250, 1));
+	width: 0;
+	bottom: 0;
+	right: 0;
+	animation: quote-after 8s infinite;
+  top: 27vw;
+
+}
+@keyframes quote-after {
+	0% {
+    width: 0;
+  }
+  20% {
+    width: calc(100% * 2/3);
+  }
+	70% {
+		opacity: 1;
+  }
+	100% {
+    width: calc(100% * 2/4);
+		opacity: 0;
+  }
+}
+
+.quote-text{
+  font-size: 3.2vw;
+  margin-left: 2vw;
+  margin-right: 4vw;
+  position: relative;
+  top: 2.5vw;
+  font-family: myFont;
+  /* color: whitesmoke; */
+  opacity: .95;
+  color: powderblue;
+
+
+}
+
+.quote-author{
+  font-style: italic;
+  bottom: 10vw;
+  position: relative;
+  font-size: 3vw;
+  left: 12vw;
+  font-family: myFont;
+}
+
+  .bar{
+    width: 40vw;
+    height: 6vw;
+
+  }
+
+  .progress{
+    background: white;
+height: 3.5vw;
+width: 93%;
+margin-left: 1vw;
+position: relative;
+top: 1.3vw;
+border-radius: 2vw;
+  }
+
+  .innerBar{
+height: 1.5vw;
+width: 0vw;
+position: relative;
+top: .8vw;
+margin-left: 3vw;
+  }
+
+  @keyframes script {
+    0%{
+      width: 0vw
+    }
+  	100% {
+      width: 22vw;
+
+    }
+  }
+
+  .script{
+    background: skyblue;
+    animation: 5s script infinite;
+
+
+  }
+
+  .java-per{
+    background: skyblue;
+
+  }
+
+  .css{
+    background: mediumorchid;
+    animation: 5s css infinite;
+
+
+  }
+
+  .css-per{
+    background: mediumorchid;
+
+  }
+
+  @keyframes css {
+    0%{
+      width: 0vw
+    }
+    100% {
+      width: 25vw;
+
+    }
+  }
+
+  .html{
+    background: yellowgreen;
+    animation: 5s html infinite;
+
+
+  }
+
+  .html-per{
+    background: yellowgreen;
+
+  }
+
+  @keyframes html {
+    0%{
+      width: 0vw
+    }
+    100% {
+      width: 30vw;
+
+    }
+  }
+
+  .react{
+    background: orangered;
+    animation: 5s react infinite;
+
+
+  }
+  .react-per{
+    background: orangered;
+
+  }
+
+  @keyframes react {
+    0%{
+      width: 0vw
+    }
+    100% {
+      width: 27vw;
+
+    }
+  }
+
+  .sql{
+    background: salmon;
+    animation: 5s sql infinite;
+
+
+  }
+
+  .mysql{
+    background: salmon;
+
+  }
+
+  @keyframes sql {
+    0%{
+      width: 0vw
+    }
+    100% {
+      width: 17vw;
+
+    }
+  }
+
+
+table{
+  margin-left: 15%;
+
+}
+
+.lang, .langName{
+  font-family: myThirdFont;
+  font-size: 1.3em;
+  color: yellow;
+opacity: .75;
+}
+
+.langName{
+  font-size: 1.3em;
+  font-family: mySecondFont
+
+}
+
+.container{
+  display: flex;
+
+}
+
+.circle{
+  height: 18vw;
+  overflow: scroll;
+  border-style: inset;
+  background: silver;
+  border-color: dimgray;
+  border-width: 3vw;
+  width: 18vw;
+border-radius: 50%;
+margin-left: 8vw;
+margin-top: 5vw;
+text-align: center;
+transition: ease-in .5s;
+
+
+
+}
+
+.circle-1{
+  border-color: steelblue;
+
+}
+.circle-2{
+  border-color: darkcyan;
+
+}
+.circle-3{
+    border-color: violet;
+}
+.change{
+  display: flex;
+
+}
+
+.opened{
+  height: 44vw;
+  /* height: auto; */
+  max-height: 48vw;
+/* width: 85vw; */
+border-radius: 11vw;
+transition: ease-in .4s;
+overflow: scroll;
+border-style: inset;
+background: silver;
+border-color: dimgray;
+border-width: 3vw;
+position: relative;
+right: 3.6vw;
+
+}
+
+.opened2{
+  width: 85vw;
+  transition: ease-in .5s;
+
+
+}
+
+.open{
+  display: block;
+
+}
+
+.zoom{
+  background: orange
+}
+
+.aboutMe{
+  margin-left: 7vw;
+    margin-right: 4vw;
+    border-width: 0vw;
+
+}
+
+.about{
+  text-align: center;
+  font-family: myFont;
+  opacity: .75;
+
+
+}
+
+.aboutCircle{
+  opacity: 0.85;
+  opacity: 0.85;
+font-family: mySecondFont;
+font-size: 1.25em;
+
+}
+
+.flatiro{
+  font-size: 1.1em;
+}
+
+.hide{
+display: none}
+
+.projectContainer{
+  text-align: center;
+}
+
+.projectLabel{
+  font-family: myThirdFont;
+  color: crimson;
+  opacity: .85;
+  font-size: 1.3em;
+  margin-bottom: -6vw;
+
+}
+
+.projectName{
+  float: left;
+  margin-bottom: 1vw;
+  font-family: myFont;
+font-size: 1.1em;
+  color: whitesmoke;
+  margin-left: 4vw;
+}
+
+.gif{
+  width: 97vw;
+
+}
+
+.descripBar{
+  height: 5vw;
+  margin-bottom: 1vw;
+
+}
+
+.description, .techDesc{
+  background: white;
+      height: 0vw;
+      overflow: scroll;
+      transition: ease-in .5s;
+      border-width: 0vw;
+position: relative;
+top: 1vw;
+
+
+}
+
+.expand{
+  height: 31vw;
+  transition: ease-in .5s
+
+}
+
+.techBar{
+  height: 5vw;
+}
+
+.descLabel{
+  font-family: myFont;
+font-size: 1em;
+width: 40vw;
+display: inline;
+color: whitesmoke;
+opacity: .8;
+
+}
+
+.descText{
+  margin-top: 2vw;
+
+}
+
+.arrow{
+  height: 3vw;
+margin-left: 1vw;
+}
+
+.stackContainer{
+  text-align: center;
+
+}
+
+.techStack{
+  font-family: myThirdFont;
+font-size: 1.4em;
+color: darkcyan;
+
+}
+
+.stack{
+  font-family: mySecondFont;
+font-size: 1.2em;
+color: whitesmoke;
+opacity: .85;
+color: darkgray;
+line-height: 5vw;
+}
+
+.num{
+  font-family: myThirdFont;
+    font-size: .7em;
+
+}
+
+.percent{
+  position: relative;
+left: 2vw;
+font-family: myFont;
+}

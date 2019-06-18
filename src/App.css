@@ -773,7 +773,7 @@ background: white;
 
 /* Goals for Phones */
 /* Iphone X */
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
 .goal-Container {
   width: 100vw;
 }
@@ -976,7 +976,7 @@ position: relative;
 top: -2vw;
 
 }
-}
+} */
 
 /* Flatiron */
 .flatiron{
@@ -1102,7 +1102,7 @@ color: blueviolet;
 /* End */
 
 /* Portrait */
-
+/*
 @media only screen and (max-width: 400px) {
   .Main{
     height: 108vh;
@@ -1431,7 +1431,7 @@ left: -32vw;
 
 
 /* Flatiron */
-.flatiron{
+/* .flatiron{
   background-image: url("https://i.pinimg.com/originals/c6/15/e3/c615e3687fe7451ff6e4360203f06f86.jpg");
   background-size: cover;
   height: 419vw;
@@ -1629,6 +1629,6 @@ width: 93vw;
   display: flex;
   float: left;
 
-}
+} */
 
-/* end */
+/* end */ 

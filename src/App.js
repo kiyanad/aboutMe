@@ -3,10 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import './Progress.css';
 
+
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import { NavLink} from 'react-router-dom'
 import CountUp from 'react-countup';
 import FlipMove from 'react-flip-move';
+import Mobile from './Components/Mobile';
+
 
 
 
@@ -15,7 +18,9 @@ import FlipMove from 'react-flip-move';
 class App extends Component {
   state = {
     allposts: [],
-    lastpost: []
+    lastpost: [],
+    width: window.innerWidth,
+
   }
   componentDidMount(){
     // FETCH FOR MEDIUM BLOG POST
@@ -33,6 +38,21 @@ class App extends Component {
             date: stringDate
           })
         })
+      }
+
+        componentWillMount() {
+  window.addEventListener('resize', this.handleWindowSizeChange);
+}
+
+// make sure to remove the listener
+// when the component is not mounted anymore
+componentWillUnmount() {
+  window.removeEventListener('resize', this.handleWindowSizeChange);
+}
+
+handleWindowSizeChange = () => {
+  this.setState({ width: window.innerWidth });
+};
 
     // document.querySelector(".javascript").classList.toggle("show")
     // document.querySelector(".reReact").classList.toggle("show")
@@ -236,10 +256,14 @@ class App extends Component {
 //     document.querySelector(".script").classList.toggle("popout")},1800)
 // },1900)
 // }
-}
+
 render(){
+  const { width } = this.state;
+const isMobile = width <= 500;
   return (
-    <div className="Main">
+    <div >
+    {isMobile? <Mobile /> :
+      <div className="Main">
       <nav className = "NavBar">
         <NavLink exact={true} activeClassName='is-active' to ="/">
           <div className = "fancy">
@@ -325,6 +349,8 @@ render(){
 <div id="footer">
 <img id="copy" src="https://www.alt-codes.net/images/copyright-symbol.png" /> <p id="foot">2019 Kiyana Dunlock</p>
 </div>
+</div>}
+
 </div>
   );
 }
