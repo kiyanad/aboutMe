@@ -130,7 +130,8 @@ top: -11vw;
 	bottom: 0;
 	right: 0;
 	animation: quote-after 8s infinite;
-  top: 27vw;
+  top: 33vw;
+  
 
 }
 @keyframes quote-after {
