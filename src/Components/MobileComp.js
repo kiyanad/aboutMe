@@ -72,10 +72,14 @@ open2 =() => {
 }, 400);
 
 // document.querySelector(".container").classList.toggle("open")
-setTimeout(function(){     circle1.classList.toggle("hide")
+setTimeout(function(){
 circle3.classList.toggle("hide")
 
 }, 900);
+setTimeout(function(){
+  circle1.classList.toggle("hide")
+
+}, 1050);
 //
 if(this.state.open2){
 this.setState({

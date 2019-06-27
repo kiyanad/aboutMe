@@ -1,0 +1,160 @@
+@media only screen and (min-width: 950px) {
+  .quote-text{
+    top: 17.5vw;
+    font-size: 2.2vw;
+
+
+  }
+
+  .quote-author{
+    bottom: -12vw;
+    font-size: 2vw;
+    left: 10vw;
+  }
+
+.quote-text::before {
+    top: .5vw;
+    left: 14vw;
+}
+
+.quote-text::after {
+
+    top: 9vw;
+    right: 14vw;
+  }
+
+.quote::before {
+
+    top: 16vw;
+    left: 0;
+}
+
+.quote::after {
+    top: 36vw;
+}
+
+  .myName{
+position: absolute;
+top: -11vw;
+width: 100%;
+font-size: 10em;
+
+  }
+
+  .bottomContainer{
+    position: relative;
+top: 14vw;
+  }
+
+  .BigContainer{
+    position: absolute;
+top: 2vw;
+  }
+
+  .quote{
+    bottom: 31vw
+  }
+
+  .tableContainer{
+    text-align: -webkit-center;
+
+  }
+
+  table{
+    right: 8vw;
+    position: relative;
+    bottom: 4vw
+  }
+
+  .lang{
+    font-size: 2.3em
+  }
+
+  .langName{
+    font-size: 2em
+
+  }
+
+  .circle{
+    height: 13vw;
+    width: 14vw
+  }
+  .aboutCircle.flatiro {
+    font-size: 2.5em;
+}
+.aboutCircle{
+  font-size: 3em;
+
+}
+.circle.opened{
+  height: 44vw;
+  /* height: auto; */
+  max-height: 48vw;
+/* width: 85vw; */
+border-radius: 11vw;
+transition: ease-in .4s;
+overflow: scroll;
+border-style: inset;
+background: silver;
+border-color: dimgray;
+border-width: 3vw;
+position: relative;
+right: 3.6vw;
+
+}
+
+.circle.opened2{
+  width: 85vw;
+  transition: ease-in .5s;
+
+
+}
+.gif {
+    width: 88vw;
+}
+
+.projectLabel{
+  font-size: 3.3em;
+
+}
+
+.projectName{
+  font-size: 1.7em;
+
+}
+
+.descLabel{
+  font-size: 2em;
+  position: relative;
+top: 2vw;
+
+}
+
+.arrow{
+  position: relative;
+top: 0.5vw;
+}
+
+.marvel, .descText, .robot, .dreamDesc, .aboutMe{
+  font-family: 'MyFont';
+text-align: -webkit-center;
+margin-bottom: 1vw;
+font-size: 1.5em;
+
+}
+
+.techStack{
+  font-size: 3.4em;
+
+}
+
+.stack{
+  position: relative;
+bottom: 3vw;
+}
+
+.about{
+  font-size: 2em;
+
+}
+}

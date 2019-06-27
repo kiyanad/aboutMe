@@ -9,6 +9,7 @@ import { NavLink} from 'react-router-dom'
 import CountUp from 'react-countup';
 import FlipMove from 'react-flip-move';
 import Mobile from './Components/Mobile';
+import MobileComp from './Components/MobileComp';
 
 
 
@@ -262,94 +263,9 @@ render(){
 const isMobile = width <= 500;
   return (
     <div >
-    {isMobile? <Mobile /> :
-      <div className="Main">
-      <nav className = "NavBar">
-        <NavLink exact={true} activeClassName='is-active' to ="/">
-          <div className = "fancy">
-            <p className="nav2">
-              Home
-            </p>
-          </div>
-        </NavLink>
-        <NavLink activeClassName='is-active' to='/aboutme'>
-          <div className = "fancy">
-            <p className="nav">
-              About Me
-            </p>
-          </div>
-        </NavLink>
-        <NavLink activeClassName='is-active' to='/goals'>
-          <div className = "fancy">
-            <p className="nav2">
-              Goals
-            </p>
-          </div>
-        </NavLink>
-        <NavLink activeClassName='is-active' to='/projects'>
-          <div className = "fancy">
-            <p className="nav2">
-              Projects
-            </p>
-          </div>
-        </NavLink>
-        <div className = "fancy">
-          <p className="nav2">
-            GitHub
-          </p>
-        </div>
-        <NavLink activeClassName='is-active' to='/flatiron'>
-          <div className = "fancy">
-            <p className="nav">
-              Flatiron School
-            </p>
-          </div>
-        </NavLink>
-      </nav>
-      <div className = "mainContainer">
-      <div className="secondContainer">
-        <div className ="techContainer">
-          <h1 className="myName">
-            Kiyana Dunlock
-          </h1>
-          <h3 className = "portfolio">
-            Tech Portfolio
-          </h3>
-          <div className ="computer" />
-        </div>
+    {isMobile? <Mobile/>:
+    <MobileComp/>}
 
-    </div>
-
-        <div className = "entryContainer">
-          <h2 className = "Entry">
-            Latest Blog Entry
-          </h2>
-      <div className = "latestEntry">
-        <h1 className = "title">
-          {this.state.lastpost.title}
-        </h1>
-        <h5 className="author">
-          Author: {this.state.lastpost.author}
-        </h5>
-        <p className="content">
-          <img className = "thumbnail" src = {`${this.state.lastpost.thumbnail}`} />
-          <br />
-          <br />
-          <a className="link" href = {`${this.state.lastpost.link}`}>
-            Check it out on my Medium blog here!
-          </a>
-          <p className = "published">
-            Published on: {this.state.date}
-          </p>
-        </p>
-      </div>
-    </div>
-
-  </div>
-<div id="footer">
-<img id="copy" src="https://www.alt-codes.net/images/copyright-symbol.png" /> <p id="foot">2019 Kiyana Dunlock</p>
-</div>
-</div>}
 
 </div>
   );
@@ -429,3 +345,95 @@ export default App;
 // <div key="a">Hello world</div>
 // </FlipMove>
 // </div>
+
+
+
+
+// {isMobile? <Mobile /> :
+//   <div className="Main">
+//   <nav className = "NavBar">
+//     <NavLink exact={true} activeClassName='is-active' to ="/">
+//       <div className = "fancy">
+//         <p className="nav2">
+//           Home
+//         </p>
+//       </div>
+//     </NavLink>
+//     <NavLink activeClassName='is-active' to='/aboutme'>
+//       <div className = "fancy">
+//         <p className="nav">
+//           About Me
+//         </p>
+//       </div>
+//     </NavLink>
+//     <NavLink activeClassName='is-active' to='/goals'>
+//       <div className = "fancy">
+//         <p className="nav2">
+//           Goals
+//         </p>
+//       </div>
+//     </NavLink>
+//     <NavLink activeClassName='is-active' to='/projects'>
+//       <div className = "fancy">
+//         <p className="nav2">
+//           Projects
+//         </p>
+//       </div>
+//     </NavLink>
+//     <div className = "fancy">
+//       <p className="nav2">
+//         GitHub
+//       </p>
+//     </div>
+//     <NavLink activeClassName='is-active' to='/flatiron'>
+//       <div className = "fancy">
+//         <p className="nav">
+//           Flatiron School
+//         </p>
+//       </div>
+//     </NavLink>
+//   </nav>
+//   <div className = "mainContainer">
+//   <div className="secondContainer">
+//     <div className ="techContainer">
+//       <h1 className="myName">
+//         Kiyana Dunlock
+//       </h1>
+//       <h3 className = "portfolio">
+//         Tech Portfolio
+//       </h3>
+//       <div className ="computer" />
+//     </div>
+//
+// </div>
+//
+//     <div className = "entryContainer">
+//       <h2 className = "Entry">
+//         Latest Blog Entry
+//       </h2>
+//   <div className = "latestEntry">
+//     <h1 className = "title">
+//       {this.state.lastpost.title}
+//     </h1>
+//     <h5 className="author">
+//       Author: {this.state.lastpost.author}
+//     </h5>
+//     <p className="content">
+//       <img className = "thumbnail" src = {`${this.state.lastpost.thumbnail}`} />
+//       <br />
+//       <br />
+//       <a className="link" href = {`${this.state.lastpost.link}`}>
+//         Check it out on my Medium blog here!
+//       </a>
+//       <p className = "published">
+//         Published on: {this.state.date}
+//       </p>
+//     </p>
+//   </div>
+// </div>
+//
+// </div>
+// <div id="footer">
+// <img id="copy" src="https://www.alt-codes.net/images/copyright-symbol.png" /> <p id="foot">2019 Kiyana Dunlock</p>
+// </div>
+// </div>}
