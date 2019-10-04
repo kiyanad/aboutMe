@@ -9,7 +9,7 @@ import { NavLink} from 'react-router-dom'
 import CountUp from 'react-countup';
 import FlipMove from 'react-flip-move';
 import Mobile from './Components/Mobile';
-import MobileComp from './Components/MobileComp';
+import MobileComp from './Components/MobilComp2';
 
 
 

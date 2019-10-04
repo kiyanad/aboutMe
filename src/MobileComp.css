@@ -1,54 +1,55 @@
 @media only screen and (min-width: 950px) {
   .quote-text{
     top: 17.5vw;
-    font-size: 2.2vw;
+    font-size: 1.7vw;
 
 
   }
 
   .quote-author{
     bottom: -12vw;
-    font-size: 2vw;
+    font-size: 1.9vw;
     left: 10vw;
   }
 
 .quote-text::before {
-    top: .5vw;
-    left: 14vw;
+  top: .9vw;
+  left: 19.7vw;
 }
 
 .quote-text::after {
 
-    top: 9vw;
-    right: 14vw;
+  top: 5vw;
+  right: 19.8vw;
   }
 
 .quote::before {
 
-    top: 16vw;
+    top: 15vw;
     left: 0;
 }
 
 .quote::after {
-    top: 36vw;
+  top: 30vw;
 }
 
   .myName{
-position: absolute;
-top: -11vw;
-width: 100%;
-font-size: 10em;
-
+    height: 19vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 10em;
   }
 
   .bottomContainer{
     position: relative;
-top: 14vw;
+    top: 14vw;
   }
 
   .BigContainer{
     position: absolute;
-top: 2vw;
+    top: 5vw;
+    left: 48vw;
   }
 
   .quote{
