@@ -6,17 +6,30 @@ html{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
-  /* background-color: #FF4B4B; */
-  
+  height: 100%;
+  overflow: hidden;
+  background-size: contain;
+
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  left: 30vw;
+  position: relative;
+  bottom: 47vw;
+  width: 78vw;
+  height: 100%;
 }
 
 
 
 .stagger-visualizer.change {
-
     background-image: url("https://image.shutterstock.com/image-vector/kd-initial-monogram-logo-260nw-342895061.jpg");
-      background-size: cover;
+    background-size: cover;
 }
 
 .stagger-visualizer {
@@ -26,20 +39,16 @@ html{
   align-items: center;
   width: 20rem;
   height: 17rem;
-
-/*       background-image: url("https://image.shutterstock.com/image-vector/kd-initial-monogram-logo-260nw-342895061.jpg");
-         background-size: cover; */
-/*   background: purple; */
+  position: relative;
+  top: -125vw;
+  left: 52vw;
 }
 
 .stagger-visualizer div {
-  /*position: absolute;*/
   width: 1rem;
   height: 1rem;
   border: 1px solid #FFF;
-  background-color: white
-    ;
-/*     border-color: brown; */
+  background-color: white;
 }
 
 #div-106{
@@ -350,7 +359,7 @@ html{
   color: black;
   animation-name: fadeInOut;
   animation-delay: 13.5s;
-  animation-duration: 9s; 
+  animation-duration: 9s;
 }
 
 .transition {
@@ -365,7 +374,7 @@ html{
     bottom: 0vw;
     box-shadow: 4px 17px 12px 13px rgba(109, 106, 106, 0.945);
   }
-  
+
   .content {
     position:relative;
     padding:200px 0 0 200px;
@@ -373,7 +382,7 @@ html{
     z-index:10;
     height:300px;
   }
-  
+
   .cta {
     outline:none;
     border:none;
@@ -406,11 +415,11 @@ html{
   .five {
     background: greenyellow;
   }
-  
+
   .anim-trans {
     animation: anim 4s ease-in-out;
     }
-  
+
   @keyframes anim{
        0% { }
        20%  { z-index:11;\transform: skewX(3deg) translateX(-100%); }
@@ -428,8 +437,7 @@ html{
       background-color: purple;
   }
 
-  .effect2:before, .effect2:after
-{
+.effect2:before, .effect2:after {
   z-index: -1;
   position: absolute;
   content: "";
@@ -450,7 +458,7 @@ html{
 }
 
 .link-text{
-    font-size: 1.6em;
+    font-size: 2.2vw;
     font-family: Futura;
     background-color: #666666;
     -webkit-background-clip: text;
@@ -462,7 +470,7 @@ html{
 
 .allLinks{
     position: relative;
-    left: 5vw;
+    left: 6vw;
     transform: skewX(9deg);
     /* top: 17vh; */
 }
@@ -485,37 +493,48 @@ html{
     width: 3vw;
     height: 3vw;
     position: relative;
-    left: 90vw;
+    left: 56vw;
     background-color: blueviolet;
     animation: rotation 5s  infinite linear;
     box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
     background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
 
-
-
-
-    /* transition-delay: 1s;
-    transition: 5s;
-    transition-delay: 10s; */
 }
 
 .stage {
-    width: 300px;
-    height: 300px;
+    width: 3vw;
+    height: 3vw;
     display: inline-block;
-    margin: 20px;
+    margin: 1.8vw;
     perspective: 1200px;
     perspective-origin: 50% 50%;
+    position: relative;
+    bottom: 1.8vw;
   }
+
+  .stage2{
+    width: 3vw;
+  }
+
+  .stage3 {
+    left: 2vw;
+    position: relative;
+  }
+
+  .stage4{
+    left: 4vw;
+    position: relative;
+  }
+
  .ball .shadow {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-    transform: rotateX(99deg) translateZ(-154px);
-    z-index: 4;
-    top: -6vw;
-    left: 0.2vw;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+   transform: rotateX(105deg) translateZ(-154px);
+   z-index: 4;
+   top: -10.3vw;
+   left: 0.2vw;
   }
 
   .ball .shadow2 {
@@ -523,10 +542,10 @@ html{
     width: 100%;
     height: 100%;
     background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-    transform: rotateX(105deg) translateZ(-154px);
+    transform: rotateX(112deg) translateZ(-145px);
     z-index: 4;
-    top: -6vw;
-    left: .1vw;
+    top: -9vw;
+    left: .23vw;
   }
 
   .ball .shadow3 {
@@ -534,22 +553,20 @@ html{
     width: 100%;
     height: 100%;
     background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-    transform: rotateX(105deg) translateZ(-154px);
+    transform: rotateX(108deg) translateZ(-153px);
     z-index: 4;
-    top: -6vw;
-    left: .1vw;
+    top: -10vw;
+    left: .2vw;
+
   }
 
 .go{
-    left: 0vw;
+    left: -4vw;
     transition: 5s all;
 }
 
 .bounce{
-    /* left: 3vw;
-    transition: 5s; */
-    animation: rotation 3s  linear;
-
+  animation: rotation 3s  linear;
 }
 
 
@@ -558,7 +575,7 @@ html{
     left: -.7vw;
     top: -.8vw;
     padding: .3vw;
-    
+
 }
 
 .linkedin{
@@ -568,11 +585,9 @@ html{
     padding: -1\vw;
     position: relative;
     left: -.1vw;
-    
 }
 
 .linkRoll{
-
     border-radius: 50%;
     width: 3vw;
     height: 3vw;
@@ -581,21 +596,13 @@ html{
     box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
     background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
     bottom: 52vw;
-    left: 5vw;
     animation: bounce .8s cubic-bezier(.5,0.05,1,.5);
     animation-direction: alternate;
     animation-iteration-count: 5;
-
-
-
-
-    /* transition-delay: 1s;
-    transition: 5s;
-    transition-delay: 10s; */
 }
 
 .linkShow {
-    bottom: 16.7vw;
+    bottom: 0vw;
 }
 
 @keyframes rotation {
@@ -618,34 +625,33 @@ html{
 }
 
 .rollBox {
-    /* background: red; */
-position: relative;
-left: 30vw;
-width: 40vw;
-height: 5vw;
+  position: relative;
+  left: 22vw;
+  width: 40vw;
+  height: 3vw;
+  top: 27vw;
+  display: flex;
+
 }
 
 
 @keyframes bounce {
     from { transform: translate3d(0, 0, 0);     }
     to   { transform: translate3d(0, 700px, 0); }
-    
+
   }
 
-
-
-  .medium{
+.medium{
     width: 3.5vw;
     left: 0.vw;
     top: 0.5vw;
     padding: -1\vw;
     position: relative;
     left: -.3vw;
-    
+
 }
 
 .medRoll{
-
     border-radius: 50%;
     width: 3vw;
     height: 3vw;
@@ -653,26 +659,53 @@ height: 5vw;
     background-color: yellow;
     box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
     background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
-    left: 9vw;
-    top: -19.7vw;
-    opacity: 0;
-    animation: fadein 2s;
-    animation-delay: 4s;
-    /* animation: bounce .8s cubic-bezier(.5,0.05,1,.5);
-    animation-direction: alternate;
-    animation-iteration-count: 5; */
-
-
-
-
-    /* transition-delay: 1s;
-    transition: 5s;
-    transition-delay: 10s; */
+  	animation: jump 1s;
+    animation-iteration-count: 6;
+    transform: scale(0);
 }
 
-.showMed{
-    opacity: 1;
+.medStay{
+    top: 11.5vw;
+    height: 3vw;
+    animation: none;
 }
+
+@keyframes jump {
+	0% {
+		top: 5vw;
+	}
+	50% {
+		top: 140px;
+    height: 3vw;
+	}
+	55% {
+		top: 160px;
+		height: 1vw;
+		border-radius: 70px / 60px;
+	}
+	65% {
+		top: 120px;
+		height: 3vw;
+		border-radius: 70px;
+	}
+	95% {
+		top: 5vw;
+	}
+	100% {
+		top: 5vw;
+	}
+}
+
+.medIn{
+  position: relative;
+  top: -11.6vw;
+}
+
+.go2{
+  transform: scale(1);
+  transition: all 5s linear 0s;
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -680,18 +713,16 @@ height: 5vw;
 }
 
 .resume{
-    width: 2vw;
-    left: 0.vw;
-    top: 1vw;
-    padding: -1\vw;
-    position: relative;
-    left: .4vw;
-    font-size: .7em;
-    
+  width: 2vw;
+  left: 0.vw;
+  top: 1vw;
+  padding: -1\vw;
+  position: relative;
+  left: .4vw;
+  font-size: .7em;
 }
 
 .resumeRoll{
-
     border-radius: 50%;
     width: 3vw;
     height: 3vw;
@@ -699,27 +730,157 @@ height: 5vw;
     background-color: rgb(29, 120, 136);
     box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
     background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
-    left: 13vw;
-
-    top: -5vw;
-
-
-    /* animation: bounceUp 1s cubic-bezier(.5,0.05,1,.5);
-    animation-direction: alternate;
-    animation-iteration-count: 4; */
-
-    /* transition-delay: 1s;
-    transition: 5s;
-    transition-delay: 10s; */
-}
-
-.moveUp {
-    transition: 1.2s ease-in-out;
-    /* top: -23.1vw; */
-    top: -30.1vw;
+    top: 18vw;
 }
 
 .moveDown {
-    transition: .5s ease-in;
-    top: -23.1vw;
+  animation: bounce2 1s linear 0s 2 alternate;
+}
+
+.stpMoveUp{
+  top: -.7vw;
+}
+
+@keyframes bounce2 {
+  from { left: 0; } to { top: -10.7vw; }
+}
+
+.heart{
+    width: 2vw;
+    left: 0.vw;
+    top: 1vw;
+    padding: -1\vw;
+    position: relative;
+    left: .4vw;
+    font-size: .7em;
+}
+
+.heartRoll{
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  position: relative;
+  background-color: rgb(29, 120, 136);
+  box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
+  background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+  animation: updown 1s 0.6s ease-in infinite alternate,
+  leftright 3s 0.5s linear infinite alternate;
+}
+
+@keyframes updown {
+    0% {transform: scale(1,1) translateY(-42vw);}
+   89% {transform: scale(0.97,1.03) translateY(-200px);}
+  100% {transform: scale(1.1, 0.9) translateY(1vw);}
+}
+@keyframes leftright {
+    0% {left: -34vw;}
+  100% {left: 507px;}
+}
+
+.fix {
+  top: -0vw;
+  right: 13.6vw;
+  animation: none;
+}
+
+.whoI {
+  font-family: mySecondFont;
+  font-size: 7vw;
+  color: ivory;
+  position: relative;
+  left: 3vw;
+  top: 0vw;
+}
+
+.iColor{
+  color: ivory;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CHANGE STYLE SHEET */
+
+
+
+
+.nextPage{
+  background: yellow;
+  height: 60vw;
+  position: relative;
+  right: 100vw;
+  top: -14vw;
+}
+
+.rotateT{
+  animation: anim2 6s ease-in-out;
+}
+
+
+@keyframes anim2{
+    0%{transform:rotate(0deg)}
+  100%{transform:rotate(1080deg) translateX(100vw);}
+}
+
+.moveInP{
+    animation: moveP 6s ease-in;
+}
+
+@keyframes moveP{
+    0%{}
+      25%{transform: translateX(12vw)}
+      50%{transform: translateX(70vw)}
+      75%{transform: translateX(750vw)}
+  100%{transform: translateX(100vw);}
+}
+
+.psychStuff{
+  background: yellow;
+  height: 100%
+}
+
+.appContain, .myContainer{
+  height: 100%
+}
+
+.redWipe{
+  width: 100%;
+  height: 66vw;
+  background: red;
+  position: relative;
+  top: -21vw;
+  left: -60vw;
+  transform: skewX(14deg);
+  z-index: -11;
+}
+
+.redGo{
+  animation: redAnim 1s ease-in;
+}
+
+.redStop{
+  transform: translateX(80vw)  translateY(-52vw);
+}
+
+.redOff{
+  display: none;
+  background: transparent;
+}
+
+@keyframes redAnim {
+  0%{}
+ 90%{transform: translateX(80vw)  translateY(-52vw);}
+100%{transform: translateX(80vw)  translateY(-52vw);}
 }

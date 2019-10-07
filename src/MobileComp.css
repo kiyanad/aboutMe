@@ -1,13 +1,12 @@
 @media only screen and (min-width: 950px) {
   .quote-text{
-    top: 17.5vw;
     font-size: 1.7vw;
 
 
   }
 
   .quote-author{
-    bottom: -12vw;
+    bottom: 9vw;
     font-size: 1.9vw;
     left: 10vw;
   }
@@ -25,36 +24,41 @@
 
 .quote::before {
 
-    top: 15vw;
     left: 0;
 }
 
 .quote::after {
-  top: 30vw;
+  top: 14vw;
 }
 
   .myName{
-    height: 19vw;
     padding-top: 2vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 10em;
+    font-size: 12vw;
+    position: relative;
+    bottom: 13vw;
+    left: 0vw;
+    width: 100%;
+    height: 45%;
   }
 
   .bottomContainer{
     position: relative;
     top: 14vw;
+    right: 13vw;
   }
 
   .BigContainer{
     position: absolute;
-    top: 5vw;
-    left: 48vw;
+    top: 0vw;
+    left: 0vw;
+    height: 103%;
+    width: 100%;
+    background-color: #282c34;
   }
 
-  .quote{
-    bottom: 31vw
-  }
+
 
   .tableContainer{
     text-align: -webkit-center;

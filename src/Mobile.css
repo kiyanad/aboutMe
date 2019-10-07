@@ -18,10 +18,10 @@
   src: url("./minimal.otf")
 }
 
- body{
+ /* body{
   background-color: #282c34;
 
-}
+} */
 
 .myName{
   text-align: center;
@@ -62,10 +62,10 @@ top: -11vw;
   justify-content: center;
   align-items: center;
   line-height: 1.5;
-  bottom: 28vw;
   left: 14vw;
   border-radius: 2vw;
   color: white;
+  top: 12vw;
 
 
 }

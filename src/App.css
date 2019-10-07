@@ -348,9 +348,13 @@ font-family: 'paragraphFont'
   justify-content: center;
   align-items: center;
   line-height: 1.5;
-  bottom: 10vw;
   left: 14vw;
   border-radius: 2vw;
+  font-size: 5vw;
+  color: white;
+  position: relative;
+  left: 4vw;
+  top: 2vw;
 
 }
 .quote-text::before,
@@ -1631,4 +1635,4 @@ width: 93vw;
 
 } */
 
-/* end */ 
+/* end */
