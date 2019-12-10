@@ -1,0 +1,22 @@
+
+/*STAR UNIVERSAL SELECTOR APPLIES TO EVERY ELEMENT*/
+*,
+*::after,
+*::before {
+  /*ALLOWS US TO START CLEAN*/
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+}
+
+// This defines what 1rem is equal to //
+html{
+  font-size: 62.5%;
+}
+
+/*WE SET THE UNIVERSAL FONTS IN THE BODY ELEMENT BECAUSE OF INHERITANCE*/
+body{
+  /* allows us to include the padding and border in an element's total width and height */
+  box-sizing: border-box;
+}

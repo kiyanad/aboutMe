@@ -2,7 +2,10 @@
   font-family: 'MyFont';
   src: url('./Font/Afterglow-Regular.ttf')
 }
-
+@font-face {
+  font-family: 'MyPsychFont';
+  src: url('./Font/Song.ttf')
+}
 @font-face {
   font-family: 'paragraphFont';
   src: url('./Font/paragraph.ttf')

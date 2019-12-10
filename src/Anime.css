@@ -7,7 +7,7 @@ html{
   align-items: center;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-size: contain;
 
 }
@@ -531,7 +531,7 @@ html{
    width: 100%;
    height: 100%;
    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-   transform: rotateX(105deg) translateZ(-154px);
+   transform: rotateX(105deg) translateZ(-12.5vw);
    z-index: 4;
    top: -10.3vw;
    left: 0.2vw;
@@ -542,7 +542,7 @@ html{
     width: 100%;
     height: 100%;
     background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-    transform: rotateX(112deg) translateZ(-145px);
+    transform: rotateX(112deg) translateZ(-11.8vw);
     z-index: 4;
     top: -9vw;
     left: .23vw;
@@ -553,7 +553,19 @@ html{
     width: 100%;
     height: 100%;
     background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-    transform: rotateX(108deg) translateZ(-153px);
+    transform: rotateX(108deg) translateZ(-12.5vw);
+    z-index: 4;
+    top: -10vw;
+    left: .2vw;
+
+  }
+
+  .ball .shadow3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    transform: rotateX(108deg) translateZ(-12.5vw);
     z-index: 4;
     top: -10vw;
     left: .2vw;
@@ -883,4 +895,109 @@ html{
   0%{}
  90%{transform: translateX(80vw)  translateY(-52vw);}
 100%{transform: translateX(80vw)  translateY(-52vw);}
+}
+
+
+
+/* next page*/
+
+.looseleaf{
+  width: 47vw;
+  position: absolute;
+  right: 14vw;
+  height: 53vw
+
+}
+
+.psychStuff{
+  position: relative;
+  text-align: center;
+  background: red;
+  width: 70vw;
+  left: 19vw;
+  top: -48vw;
+}
+
+.psychTitle{
+  position: relative;
+  font-family: "MyPsychFont";
+  left: 27vw;
+    font-size: 1.5vw;
+    top: 4vw;
+    text-align: left;
+    /* line-height: 2.3vw; */
+
+}
+
+.psychText{
+  position: relative;
+  font-family: "MyPsychFont";
+  width: 33.2vw;
+  left: 16vw;
+  font-size: 1.3vw;
+  top: 2.6vw;
+  text-align: left;
+  line-height: 2.2vw;
+}
+
+.psychText2{
+  position: relative;
+  font-family: "MyPsychFont";
+  width: 33.2vw;
+  left: 16vw;
+  font-size: 1.3vw;
+  top: 1vw;
+  text-align: left;
+  line-height: 2.2vw;
+}
+
+.psychText3{
+  position: relative;
+  font-family: "MyPsychFont";
+  width: 33.2vw;
+  left: 16vw;
+  font-size: 1.3vw;
+  top: -.5vw;
+  text-align: left;
+  line-height: 2.2vw;
+}
+
+.psychText4{
+  position: relative;
+  font-family: "MyPsychFont";
+  width: 33.2vw;
+  left: 16vw;
+  font-size: 1.3vw;
+  top: -2vw;
+  text-align: left;
+  line-height: 2.1vw;
+}
+
+.psychText5{
+  position: relative;
+  font-family: "MyPsychFont";
+  width: 33.2vw;
+  left: 16vw;
+  font-size: 1.3vw;
+  top: -3.5vw;
+  text-align: left;
+  line-height: 2vw;
+}
+
+.Bulletin{
+  z-index: -1;
+  position: relative;
+  left: 11vw;
+  top: 5vw;
+}
+
+.looseleafSmall{
+  width: 13vw;
+    position: absolute;
+    right: 14vw;
+    height: 17vw;
+}
+
+.psychPage h3, .psychPage h1 {
+  
 }

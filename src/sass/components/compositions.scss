@@ -1,0 +1,182 @@
+.composition{
+  position: relative;
+
+    &__photo{
+      width: 35%;
+      height: 15rem;
+      box-shadow: 0 1.5rem 4rem rgba($color-primary-black, .4);
+      border-radius: 2px;
+      position: absolute;
+      background-color: white;
+      transition: all.2s;
+      outline-offset: 2rem;
+
+
+        &--p1{
+            left: 0;
+            top: -2rem;
+            z-index: 6;
+        }
+        &--p2{
+          left: -12rem;
+          top: 9em;
+          z-index: 7;
+        }
+        &--p3{
+          left: 0;
+          top: 17rem;
+          z-index: 4;
+        }
+        &--p4{
+          left: 10rem;
+          top: 6rem;
+        }
+        &--p5{
+          left: -8rem;
+          top: 5rem;
+          z-index: 11;
+        }
+        &--p6{
+          left: -15rem;
+          top: 2rem;
+          z-index: 7;
+        }
+
+        &--p7{
+          top: 14rem;
+          left: 12rem;
+        }
+
+        &--p8{
+          top: 8rem;
+          left: 2rem;
+          z-index: 6;
+        }
+
+      &--p9{
+
+        top: 9rem;
+        left: -21rem;
+        z-index: 7;
+      }
+
+      &--p10{
+        left: 13rem;
+        bottom: -10rem;
+        z-index: 1;
+      }
+
+      &:hover{
+        outline: 1.5rem solid $color-frontend-yellow;
+        transform: scale(1.05) translateY(5px);
+        box-shadow: 0 2.5rem 4rem rgba($color-primary-black, .6);
+        z-index: 13;
+      }
+    }
+
+  &:hover &__photo:not(:hover){
+    transform: scale(.9);
+  }
+}
+
+.html, .Css, .Js, .React, .Sql, .Salesforce, .VBA, .Sass, .ReactNative, .Apex{
+  //border-style: inset;
+  height: 4rem;
+  width: 20rem;
+  padding: .3rem;
+
+
+
+}
+
+.Sql{
+  width: 21rem;
+}
+
+.borderShow{
+  border-style: dashed;
+  border-radius: 2rem;
+}
+
+
+.htmlInner{
+  //background: yellow;
+  height: 2.7rem;
+  /* float: right; */
+  top: -2.8rem;
+  width: 13rem;
+  left: 6rem;
+  position: relative;
+  display: flex;
+}
+
+.cssInner, .jsInner, .reactInner, .sqlInner, .salesforceInner, .vbaInner, .sassInner, .reactNativeInner, .apexInner{
+  //background: yellow;
+  height: 2.7rem;
+  /* float: right; */
+  top: -3.1rem;
+  width: 13rem;
+  left: 4rem;
+  position: relative;
+  display: flex;
+}
+
+.jsInner{
+  left: 9rem;
+  width: 8rem;
+}
+
+.reactInner{
+  left: 5.3rem;
+  width: 10rem;
+}
+
+.sqlInner{
+  left: 9.7rem;
+  width: 10rem;
+}
+
+.salesforceInner{
+  left: 9.5rem;
+  width: 7.5rem;
+
+}
+
+.sassInner{
+  width: 6rem;
+  left: 5rem;
+}
+
+.vbaInner{
+  left: 4.5rem;
+  width: 10.5rem;
+}
+
+.reactNativeInner{
+  left: 11.5rem;
+  width: 7.5rem;
+}
+
+.apexInner{
+  left: 5.5rem;
+  width: 5.5rem;
+}
+
+.circleRank{
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  margin-left: .5rem;
+  top: 0.2rem;
+  position: relative;
+
+  &-positive{
+    background: limegreen;
+
+  }
+
+  &-half{
+    background: linear-gradient(90deg, #32CD32 50%, #a19ba4 50%);
+
+  }
+}

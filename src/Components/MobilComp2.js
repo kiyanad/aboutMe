@@ -240,8 +240,35 @@ render(){
   return (
     <div className= "myContainer">
       {this.state.nextPage?
-      <div className="psychStuff">
-        yay next page
+      <div className = "psychPage">
+        <img className = "Bulletin" src = "https://cdn.pixabay.com/photo/2019/06/26/19/49/pin-board-4301129_960_720.png"/>
+        <div className="psychStuff">
+          <img className="looseleafSmall" src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e7a6cc8b-9978-4591-ac21-f008c3c08bf4/d2qmgs5-07845583-0d08-4106-be3e-72c83e1596fe.png/v1/fill/w_786,h_1017,strp/loose_leaf_paper_png_by_dianasurvive_d2qmgs5-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2U3YTZjYzhiLTk5NzgtNDU5MS1hYzIxLWYwMDhjM2MwOGJmNFwvZDJxbWdzNS0wNzg0NTU4My0wZDA4LTQxMDYtYmUzZS03MmM4M2UxNTk2ZmUucG5nIiwid2lkdGgiOiI8PTc5MSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.lSZ4md89z78JDKxiNYDYE2Du05ZpbiYyxze2IBcTHXc" />
+          {this.state.small? 
+            
+        }
+          <div>
+            <h1 className = "psychTitle">
+              What took so long?
+            </h1>
+            <h3 className = "psychText"> 
+            Whenever I tell anyone I was a Psychology major they always ask the same question... "So why are <i>YOU</i> coding" and I always give them the same answer "Because I love it". Unfortunately, I wasn’t raised in the most enriching 
+            </h3>
+            <h3 className= "psychText2">
+            environment (I grew up in public housing) so I wasn’t offered as many different opportunities as a lot of my peers. Many of my colleagues were introduced to programing and computer science at very early ages. Growing up I didn’t even 
+            </h3>
+            <h3 className= "psychText3">
+            know I could <i>be</i> a computer programmer. The only thing I knew about programming was what I saw on television or in movies. Basically, a child prodigy who one day purchased a calculator and built a website (I'm exaggerating). But I 
+            </h3>
+            <h3 className= "psychText4">
+            am saying this to say I never saw anyone learn to code so I thought either you couldn’t or it was just super hard. In terms of education, I always prided myself in being a very hard worker. I attended the top schools and worked to excel at everything I did. I was always very empathetic and wanted to help others by 
+            </h3>
+            <h3 className= "psychText5">
+            understanding them and I believe this is what drew me to psychology. I was able to experience a different way of living when I traveled to both Italy and Greece as a Student Ambassador. But through all of this I still had a side hobby... creating Myspace profile layouts. But it wasn’t until many years later that I learned that I was actually programming the whole time!
+            </h3>
+
+          </div>
+        </div>
       </div>:
       <div className = "oneContain">
         <canvas id='world'></canvas>

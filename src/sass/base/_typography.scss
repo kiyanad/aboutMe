@@ -1,0 +1,74 @@
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $color-gray-dark;
+  padding: 3rem;
+  /* allows us to include the padding and border in an element's total width and height */
+  box-sizing: border-box;
+}
+
+
+.heading-primary{
+  color: $color-ghostWhite;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main{
+    display: block;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 1.6rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &--sub{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.7rem;
+    animation: moveInRight 1s ease-out;
+  }
+}
+
+
+.sales{
+  color: $color-sales-green;
+
+}
+
+.front{
+  color: $color-frontend-yellow;
+
+}
+
+.back{
+  color: $color-backend-tomato;
+}
+
+@font-face {
+  font-family: 'myFont';
+  src: url("./Fonts/Madame.ttf");
+}
+.heading-secondary{
+  font-size: 9.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, red, blue, green, orange);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all .2s;
+  font-family: myFont;
+  width: 36%;
+
+  &:hover{
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-primary-black, .5);
+  }
+}

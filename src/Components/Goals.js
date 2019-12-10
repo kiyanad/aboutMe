@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 
 
 
+
 class Goals extends Component {
   componentDidMount(){
   AOS.init({
