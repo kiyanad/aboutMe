@@ -10,6 +10,8 @@ import CountUp from 'react-countup';
 import FlipMove from 'react-flip-move';
 import Mobile from './Components/Mobile';
 import MobileComp from './Components/MobileComp3';
+import MobileComp2 from './Components/MobileComp4';
+
 
 
 
@@ -263,7 +265,7 @@ render(){
 const isMobile = width <= 500;
   return (
     <div className = "appContain">
-    {isMobile? <MobileComp/>:
+    {isMobile? <MobileComp2/>:
     <MobileComp/>}
 
 

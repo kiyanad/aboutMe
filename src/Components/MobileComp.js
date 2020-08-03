@@ -17,7 +17,7 @@ class Mobile extends Component {
     const circle2 = document.querySelector(".circle-2")
     const circle3 = document.querySelector(".circle-3")
 
-    if(circle1.classList.contains("opened2") == false){
+    if(circle1.classList.contxains("opened2") == false){
     document.querySelector(".circle-1").classList.toggle("opened")
     setTimeout(function(){     document.querySelector(".circle-1").classList.toggle("opened2")
 }, 400);

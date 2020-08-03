@@ -681,5 +681,74 @@ body {
       font-size: 4.5rem;
       bottom: 59px;
       position: relative;
+      width: 58%;
   }
+
+  .composition {
+    position: relative;
+    left: -3rem;
+  }
+
+  .composition__photo {
+    width: 41%;
+    height: 8rem;
+  }
+
+  .composition__photo--p1 {
+    left: 168px;
+    top: -6rem;
+
+}
+
+.composition__photo--p2 {
+  left: 13rem;
+  top: 2em;
+}
+
+.composition__photo--p3 {
+  left: 213px;
+  top: 3rem;
+}
+
+.composition__photo--p4 {
+  left: 26rem;
+  top: -3rem;
+}
+
+
+.composition__photo--p5 {
+  left: 15rem;
+  top: -2rem;
+}
+
+.composition__photo--p6 {
+  left: 12rem;
+  top: -7rem;
+}
+
+.composition__photo--p7 {
+  top: 2rem;
+  left: 25rem;
+}
+
+.composition__photo--p8 {
+  top: -1rem;
+  left: 19rem;
+}
+
+.composition__photo--p9 {
+  top: -2rem;
+  left: 10rem;
+}
+
+  .composition__photo--p10 {
+    left: 22rem;
+    bottom: 0rem;
+}
+
+.u-margin-bottom-8 {
+  margin-bottom: 1rem;
+}
+
+
   }
