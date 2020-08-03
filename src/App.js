@@ -263,7 +263,7 @@ render(){
 const isMobile = width <= 500;
   return (
     <div className = "appContain">
-    {isMobile? <Mobile/>:
+    {isMobile? <MobileComp/>:
     <MobileComp/>}
 
 
