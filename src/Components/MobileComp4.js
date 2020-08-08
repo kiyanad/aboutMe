@@ -186,7 +186,6 @@ export class MobileComp3 extends Component {
 
     javascriptclicked = () => {
 
-        console.log("here")
          this.setState({
              javascript: true,
              HTML: false
@@ -319,39 +318,48 @@ export class MobileComp3 extends Component {
                     {this.state.HTML?
                     <div className="" id="up">
                     <div className="html">
-                    <h3>HTML</h3>
-                    <div className="htmlInner">
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube "></div>
-                    </div>
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube " id="gray"></div>
-                    <div className="sk-cube4 sk-cube "></div>
-                    <div className="sk-cube3 sk-cube "></div>
-                    </div>
-                    </div>
+                    <div id="ui">
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+  <div class="text">HTML</div>
+</div>
                     </div>
                     </div>: 
                     <div></div>
