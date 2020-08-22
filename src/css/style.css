@@ -115,6 +115,7 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, red, blue, green, orange);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   letter-spacing: 2px;
   transition: all .2s;
@@ -180,6 +181,7 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, red, blue, green, orange);
   -webkit-background-clip: text;
+  
   color: transparent;
   letter-spacing: 2px;
   transition: all .2s;

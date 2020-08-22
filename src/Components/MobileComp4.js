@@ -52,122 +52,6 @@ export class MobileComp3 extends Component {
 
             if(this.state.changePage != false) {
 
-                // document.querySelector(".composition__photo--p1").addEventListener('mouseenter', e => {
-                //     document.querySelector(".Js").classList.toggle("borderShow");
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-
-                // });
-                // document.querySelector(".composition__photo--p1").addEventListener('mouseleave', e => {
-                //     document.querySelector(".Js").classList.toggle("borderShow")
-
-                // });
-
-                // document.querySelector(".composition__photo--p2").addEventListener('mouseenter', e => {
-                //     document.querySelector(".Salesforce").classList.toggle("borderShow");
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-                // });
-                // document.querySelector(".composition__photo--p2").addEventListener('mouseleave', e => {
-                //     document.querySelector(".Salesforce").classList.toggle("borderShow");
-
-                // });
-
-                // document.querySelector(".composition__photo--p3").addEventListener('mouseenter', e => {
-                //     document.querySelector(".React").classList.toggle("borderShow");
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-
-                // });
-                // document.querySelector(".composition__photo--p3").addEventListener('mouseleave', e => {
-                //     document.querySelector(".React").classList.toggle("borderShow")
-
-                // });
-
-
-                // document.querySelector(".composition__photo--p4").addEventListener('mouseenter', e => {
-                //     document.querySelector(".Sass").classList.toggle("borderShow")
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-
-                // });
-                // document.querySelector(".composition__photo--p4").addEventListener('mouseleave', e => {
-                //     document.querySelector(".Sass").classList.toggle("borderShow")
-
-                // });
-
-
-                // document.querySelector(".composition__photo--p5").addEventListener('mouseenter', e => {
-                //     document.querySelector(".VBA").classList.toggle("borderShow")
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-
-                // });
-                // document.querySelector(".composition__photo--p5").addEventListener('mouseleave', e => {
-                //     document.querySelector(".VBA").classList.toggle("borderShow")
-
-                // });
-
-                // document.querySelector(".composition__photo--p6").addEventListener('mouseenter', e => {
-                //     document.querySelector(".ReactNative").classList.toggle("borderShow")
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-
-                // });
-                // document.querySelector(".composition__photo--p6").addEventListener('mouseleave', e => {
-                //     document.querySelector(".ReactNative").classList.toggle("borderShow")
-
-                // });
-
-                // document.querySelector(".composition__photo--p7").addEventListener('mouseenter', e => {
-                //     document.querySelector(".Css").classList.toggle("borderShow")
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-
-                // });
-                // document.querySelector(".composition__photo--p7").addEventListener('mouseleave', e => {
-                //     document.querySelector(".Css").classList.toggle("borderShow")
-
-                // });
-
-                // document.querySelector(".composition__photo--p8").addEventListener('mouseenter', e => {
-                //     document.querySelector(".Sql").classList.toggle("borderShow")
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-
-                // });
-                // document.querySelector(".composition__photo--p8").addEventListener('mouseleave', e => {
-                //     document.querySelector(".Sql").classList.toggle("borderShow")
-
-                // });
-
-                // setTimeout(() => {
-                //     document.querySelector(".composition__photo--p9").addEventListener('mouseenter', e => {
-                //         // document.querySelector(".html").classList.toggle("borderShow")
-                //         // var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //         // document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-    
-                //     });
-                // }, 5000);
-                
-                // document.querySelector(".composition__photo--p9").addEventListener('mouseleave', e => {
-                //     document.querySelector(".html").classList.toggle("borderShow")
-
-                // });
-
-                // document.querySelector(".composition__photo--p10").addEventListener('mouseenter', e => {
-                //     document.querySelector(".Apex").classList.toggle("borderShow")
-                //     var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-                //     document.querySelector(".borderShow").style.borderColor = `#${randomColor}`;
-
-
-                // });
-                // document.querySelector(".composition__photo--p10").addEventListener('mouseleave', e => {
-                //     document.querySelector(".Apex").classList.toggle("borderShow")
-
-                // });
-
-
             }
 
 
@@ -284,7 +168,6 @@ export class MobileComp3 extends Component {
         console.log(this.state.HTML)
         return (
             <div className="myContainer">
-
                 {this.state.changePage ?
                     <div>
                     <header class="header">
@@ -319,74 +202,95 @@ export class MobileComp3 extends Component {
                     <div className="" id="up">
                     <div className="html">
                     <div id="ui">
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-  <div class="text">HTML</div>
-</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
+                        <div class="text">HTML</div>
                     </div>
+                </div>
                     </div>: 
                     <div></div>
     }
                         {this.state.javascript?
                     <div className="" id="up">
                     <div className="html">
-                    <h3>Javascript</h3>
-                    <div className="jsInner">
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
+                    <div id="ui">
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
+                        <div class="text">Javascript</div>
                     </div>
                     </div>
                     </div>: 

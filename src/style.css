@@ -776,8 +776,8 @@ div {
           clip-path: polygon(-2% -6%, 6% -13%, 6% 51%, -2% 57%);
   -webkit-transform-origin: -20% -7%;
           transform-origin: -20% -7%;
-  -webkit-animation: fly1 500ms 0ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly1 5000ms 0ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly1 2000ms 0ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly1 2000ms 0ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly1 {
   0% {
@@ -829,8 +829,8 @@ div {
           clip-path: polygon(4% -3%, 15% -24%, 15% 55%, 4% 58%);
   -webkit-transform-origin: -7% -46%;
           transform-origin: -7% -46%;
-  -webkit-animation: fly2 5000ms 30ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly2 5000ms 30ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly2 2000ms 30ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly2 2000ms 30ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly2 {
   0% {
@@ -882,8 +882,8 @@ div {
           clip-path: polygon(8% -1%, 17% -23%, 17% 57%, 8% 58%);
   -webkit-transform-origin: -2% -38%;
           transform-origin: -2% -38%;
-  -webkit-animation: fly3 5000ms 60ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly3 5000ms 60ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly3 2000ms 60ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly3 2000ms 60ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly3 {
   0% {
@@ -935,8 +935,8 @@ div {
           clip-path: polygon(14% -7%, 22% -7%, 21% 58%, 13% 69%);
   -webkit-transform-origin: 2% -13%;
           transform-origin: 2% -13%;
-  -webkit-animation: fly4 5000ms 90ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly4 5000ms 90ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly4 2000ms 90ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly4 2000ms 90ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly4 {
   0% {
@@ -988,8 +988,8 @@ div {
           clip-path: polygon(18% -10%, 30% -23%, 30% 60%, 18% 63%);
   -webkit-transform-origin: -1% -38%;
           transform-origin: -1% -38%;
-  -webkit-animation: fly5 5000ms 120ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly5 5000ms 120ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly5 2000ms 120ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly5 2000ms 120ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly5 {
   0% {
@@ -1041,8 +1041,8 @@ div {
           clip-path: polygon(23% -3%, 35% -17%, 33% 52%, 23% 54%);
   -webkit-transform-origin: 14% 49%;
           transform-origin: 14% 49%;
-  -webkit-animation: fly6 5000ms 150ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly6 5000ms 150ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly6 2000ms 150ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly6 2000ms 150ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly6 {
   0% {
@@ -1094,8 +1094,8 @@ div {
           clip-path: polygon(28% -5%, 38% -3%, 39% 51%, 29% 53%);
   -webkit-transform-origin: 33% -41%;
           transform-origin: 33% -41%;
-  -webkit-animation: fly7 5000ms 180ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly7 5000ms 180ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly7 2000ms 180ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly7 2000ms 180ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly7 {
   0% {
@@ -1147,8 +1147,8 @@ div {
           clip-path: polygon(34% -7%, 45% -17%, 42% 52%, 34% 63%);
   -webkit-transform-origin: 47% -40%;
           transform-origin: 47% -40%;
-  -webkit-animation: fly8 5000ms 210ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly8 5000ms 210ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly8 2000ms 210ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly8 2000ms 210ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly8 {
   0% {
@@ -1200,8 +1200,8 @@ div {
           clip-path: polygon(38% -8%, 49% -1%, 46% 60%, 39% 64%);
   -webkit-transform-origin: -9% 50%;
           transform-origin: -9% 50%;
-  -webkit-animation: fly9 5000ms 240ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly9 5000ms 240ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly9 2000ms 240ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly9 2000ms 240ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly9 {
   0% {
@@ -1253,8 +1253,8 @@ div {
           clip-path: polygon(43% -1%, 51% -17%, 54% 53%, 44% 64%);
   -webkit-transform-origin: 43% 37%;
           transform-origin: 43% 37%;
-  -webkit-animation: fly10 5000ms 270ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly10 5000ms 270ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly10 2000ms 270ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly10 2000ms 270ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly10 {
   0% {
@@ -1306,8 +1306,8 @@ div {
           clip-path: polygon(49% -4%, 60% -3%, 60% 54%, 48% 75%);
   -webkit-transform-origin: 12% 49%;
           transform-origin: 12% 49%;
-  -webkit-animation: fly11 5000ms 300ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly11 5000ms 300ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly11 2000ms 300ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly11 2000ms 300ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly11 {
   0% {
@@ -1359,8 +1359,8 @@ div {
           clip-path: polygon(54% -1%, 61% -17%, 62% 53%, 53% 55%);
   -webkit-transform-origin: 9% 49%;
           transform-origin: 9% 49%;
-  -webkit-animation: fly12 5000ms 330ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly12 5000ms 330ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly12 2000ms 330ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly12 2000ms 330ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly12 {
   0% {
@@ -1412,8 +1412,8 @@ div {
           clip-path: polygon(59% -3%, 68% -23%, 69% 56%, 59% 62%);
   -webkit-transform-origin: 23% -34%;
           transform-origin: 23% -34%;
-  -webkit-animation: fly13 5000ms 360ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly13 5000ms 360ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly13 2000ms 360ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly13 2000ms 360ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly13 {
   0% {
@@ -1465,8 +1465,8 @@ div {
           clip-path: polygon(64% -9%, 71% -15%, 71% 57%, 63% 61%);
   -webkit-transform-origin: 27% 16%;
           transform-origin: 27% 16%;
-  -webkit-animation: fly14 5000ms 390ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly14 5000ms 390ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly14 2000ms 390ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly14 2000ms 390ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly14 {
   0% {
@@ -1518,8 +1518,8 @@ div {
           clip-path: polygon(69% -4%, 77% -21%, 80% 60%, 68% 69%);
   -webkit-transform-origin: 95% -31%;
           transform-origin: 95% -31%;
-  -webkit-animation: fly15 5000ms 420ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly15 5000ms 420ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly15 2000ms 420ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly15 2000ms 420ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly15 {
   0% {
@@ -1571,8 +1571,8 @@ div {
           clip-path: polygon(74% -8%, 81% -6%, 82% 53%, 74% 65%);
   -webkit-transform-origin: 49% -6%;
           transform-origin: 49% -6%;
-  -webkit-animation: fly16 5000ms 450ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly16 5000ms 450ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly16 2000ms 450ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly16 2000ms 450ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly16 {
   0% {
@@ -1624,8 +1624,8 @@ div {
           clip-path: polygon(78% -1%, 90% -21%, 89% 54%, 79% 60%);
   -webkit-transform-origin: 89% -43%;
           transform-origin: 89% -43%;
-  -webkit-animation: fly17 5000ms 480ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly17 5000ms 480ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly17 2000ms 480ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly17 2000ms 480ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly17 {
   0% {
@@ -1677,8 +1677,8 @@ div {
           clip-path: polygon(84% -8%, 94% -17%, 93% 54%, 83% 71%);
   -webkit-transform-origin: 42% -39%;
           transform-origin: 42% -39%;
-  -webkit-animation: fly18 5000ms 510ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly18 5000ms 510ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly18 2000ms 510ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly18 2000ms 510ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly18 {
   0% {
@@ -1730,8 +1730,8 @@ div {
           clip-path: polygon(89% -6%, 97% -12%, 99% 57%, 89% 69%);
   -webkit-transform-origin: 96% -29%;
           transform-origin: 96% -29%;
-  -webkit-animation: fly19 5000ms 540ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly19 5000ms 540ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly19 2000ms 540ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly19 2000ms 540ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly19 {
   0% {
@@ -1783,8 +1783,8 @@ div {
           clip-path: polygon(93% -10%, 105% -4%, 102% 60%, 94% 65%);
   -webkit-transform-origin: 115% 6%;
           transform-origin: 115% 6%;
-  -webkit-animation: fly20 5000ms 570ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly20 5000ms 570ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly20 2000ms 570ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly20 2000ms 570ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly20 {
   0% {
@@ -1836,8 +1836,8 @@ div {
           clip-path: polygon(-1% 46%, 8% 39%, 10% 102%, -1% 112%);
   -webkit-transform-origin: 46% 6%;
           transform-origin: 46% 6%;
-  -webkit-animation: fly21 5000ms 600ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly21 5000ms 600ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly21 2000ms 600ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly21 2000ms 600ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly21 {
   0% {
@@ -1889,8 +1889,8 @@ div {
           clip-path: polygon(3% 40%, 15% 34%, 13% 105%, 3% 102%);
   -webkit-transform-origin: -41% 29%;
           transform-origin: -41% 29%;
-  -webkit-animation: fly22 5000ms 630ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly22 5000ms 630ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly22 2000ms 630ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly22 2000ms 630ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly22 {
   0% {
@@ -1942,8 +1942,8 @@ div {
           clip-path: polygon(8% 47%, 18% 48%, 17% 102%, 8% 111%);
   -webkit-transform-origin: 21% 55%;
           transform-origin: 21% 55%;
-  -webkit-animation: fly23 5000ms 660ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly23 5000ms 660ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly23 2000ms 660ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly23 2000ms 660ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly23 {
   0% {
@@ -1995,8 +1995,8 @@ div {
           clip-path: polygon(13% 49%, 23% 40%, 23% 103%, 13% 107%);
   -webkit-transform-origin: 48% 50%;
           transform-origin: 48% 50%;
-  -webkit-animation: fly24 5000ms 690ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly24 5000ms 690ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly24 2000ms 690ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly24 2000ms 690ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly24 {
   0% {
@@ -2048,8 +2048,8 @@ div {
           clip-path: polygon(19% 46%, 26% 32%, 26% 109%, 19% 117%);
   -webkit-transform-origin: 50% 18%;
           transform-origin: 50% 18%;
-  -webkit-animation: fly25 5000ms 720ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly25 5000ms 720ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly25 2000ms 720ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly25 2000ms 720ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly25 {
   0% {
@@ -2101,8 +2101,8 @@ div {
           clip-path: polygon(23% 47%, 31% 38%, 35% 105%, 23% 117%);
   -webkit-transform-origin: 62% 36%;
           transform-origin: 62% 36%;
-  -webkit-animation: fly26 5000ms 750ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly26 5000ms 750ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly26 2000ms 750ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly26 2000ms 750ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly26 {
   0% {
@@ -2154,8 +2154,8 @@ div {
           clip-path: polygon(28% 44%, 37% 47%, 36% 103%, 28% 108%);
   -webkit-transform-origin: 59% 15%;
           transform-origin: 59% 15%;
-  -webkit-animation: fly27 5000ms 780ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly27 5000ms 780ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly27 2000ms 780ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly27 2000ms 780ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly27 {
   0% {
@@ -2207,8 +2207,8 @@ div {
           clip-path: polygon(33% 46%, 45% 39%, 42% 110%, 33% 107%);
   -webkit-transform-origin: 15% 56%;
           transform-origin: 15% 56%;
-  -webkit-animation: fly28 5000ms 810ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly28 5000ms 810ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly28 2000ms 810ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly28 2000ms 810ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly28 {
   0% {
@@ -2260,8 +2260,8 @@ div {
           clip-path: polygon(38% 46%, 48% 28%, 48% 102%, 39% 107%);
   -webkit-transform-origin: 58% 30%;
           transform-origin: 58% 30%;
-  -webkit-animation: fly29 5000ms 840ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly29 5000ms 840ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly29 2000ms 840ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly29 2000ms 840ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly29 {
   0% {
@@ -2313,8 +2313,8 @@ div {
           clip-path: polygon(44% 49%, 51% 36%, 54% 108%, 44% 113%);
   -webkit-transform-origin: 79% 32%;
           transform-origin: 79% 32%;
-  -webkit-animation: fly30 5000ms 870ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly30 5000ms 870ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly30 2000ms 870ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly30 2000ms 870ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly30 {
   0% {
@@ -2366,8 +2366,8 @@ div {
           clip-path: polygon(48% 49%, 60% 35%, 56% 108%, 49% 118%);
   -webkit-transform-origin: 92% 38%;
           transform-origin: 92% 38%;
-  -webkit-animation: fly31 5000ms 900ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly31 5000ms 900ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly31 2000ms 900ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly31 2000ms 900ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly31 {
   0% {
@@ -2419,8 +2419,8 @@ div {
           clip-path: polygon(54% 46%, 61% 25%, 63% 104%, 54% 115%);
   -webkit-transform-origin: 48% 84%;
           transform-origin: 48% 84%;
-  -webkit-animation: fly32 5000ms 930ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly32 5000ms 930ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly32 2000ms 930ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly32 2000ms 930ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly32 {
   0% {
@@ -2472,8 +2472,8 @@ div {
           clip-path: polygon(58% 43%, 67% 42%, 68% 110%, 58% 109%);
   -webkit-transform-origin: 109% 88%;
           transform-origin: 109% 88%;
-  -webkit-animation: fly33 5000ms 960ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly33 5000ms 960ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly33 2000ms 960ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly33 2000ms 960ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly33 {
   0% {
@@ -2525,8 +2525,8 @@ div {
           clip-path: polygon(64% 48%, 74% 41%, 75% 102%, 64% 101%);
   -webkit-transform-origin: 97% 29%;
           transform-origin: 97% 29%;
-  -webkit-animation: fly34 5000ms 990ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly34 5000ms 990ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly34 2000ms 990ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly34 2000ms 990ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly34 {
   0% {
@@ -2578,8 +2578,8 @@ div {
           clip-path: polygon(69% 48%, 78% 45%, 76% 104%, 68% 109%);
   -webkit-transform-origin: 102% 100%;
           transform-origin: 102% 100%;
-  -webkit-animation: fly35 5000ms 1020ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly35 5000ms 1020ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly35 2000ms 1020ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly35 2000ms 1020ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly35 {
   0% {
@@ -2631,8 +2631,8 @@ div {
           clip-path: polygon(73% 47%, 83% 31%, 81% 110%, 74% 116%);
   -webkit-transform-origin: 31% 12%;
           transform-origin: 31% 12%;
-  -webkit-animation: fly36 5000ms 1050ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly36 5000ms 1050ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly36 2000ms 1050ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly36 2000ms 1050ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly36 {
   0% {
@@ -2684,8 +2684,8 @@ div {
           clip-path: polygon(78% 41%, 89% 37%, 90% 110%, 78% 122%);
   -webkit-transform-origin: 75% 69%;
           transform-origin: 75% 69%;
-  -webkit-animation: fly37 5000ms 1080ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly37 5000ms 1080ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly37 2000ms 1080ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly37 2000ms 1080ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly37 {
   0% {
@@ -2737,8 +2737,8 @@ div {
           clip-path: polygon(83% 49%, 94% 38%, 92% 105%, 84% 106%);
   -webkit-transform-origin: 58% 68%;
           transform-origin: 58% 68%;
-  -webkit-animation: fly38 5000ms 1110ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly38 5000ms 1110ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly38 2000ms 1110ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly38 2000ms 1110ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly38 {
   0% {
@@ -2790,8 +2790,8 @@ div {
           clip-path: polygon(89% 42%, 97% 25%, 96% 101%, 88% 110%);
   -webkit-transform-origin: 90% 14%;
           transform-origin: 90% 14%;
-  -webkit-animation: fly39 5000ms 1140ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly39 5000ms 1140ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly39 2000ms 1140ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly39 2000ms 1140ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly39 {
   0% {
@@ -2843,8 +2843,8 @@ div {
           clip-path: polygon(93% 40%, 104% 34%, 103% 110%, 93% 123%);
   -webkit-transform-origin: 109% 57%;
           transform-origin: 109% 57%;
-  -webkit-animation: fly40 5000ms 1170ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly40 5000ms 1170ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly40 2000ms 1170ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly40 2000ms 1170ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly40 {
   0% {
@@ -2896,8 +2896,8 @@ div {
           clip-path: polygon(-2% 98%, 10% 96%, 6% 157%, -1% 167%);
   -webkit-transform-origin: 16% 62%;
           transform-origin: 16% 62%;
-  -webkit-animation: fly41 5000ms 1200ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly41 5000ms 1200ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly41 2000ms 1200ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly41 2000ms 1200ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly41 {
   0% {
@@ -2949,8 +2949,8 @@ div {
           clip-path: polygon(3% 95%, 13% 85%, 15% 155%, 4% 164%);
   -webkit-transform-origin: -17% 72%;
           transform-origin: -17% 72%;
-  -webkit-animation: fly42 5000ms 1230ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly42 5000ms 1230ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly42 2000ms 1230ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly42 2000ms 1230ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly42 {
   0% {
@@ -3002,8 +3002,8 @@ div {
           clip-path: polygon(9% 90%, 18% 82%, 18% 156%, 9% 167%);
   -webkit-transform-origin: 49% 80%;
           transform-origin: 49% 80%;
-  -webkit-animation: fly43 5000ms 1260ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly43 5000ms 1260ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly43 2000ms 1260ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly43 2000ms 1260ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly43 {
   0% {
@@ -3055,8 +3055,8 @@ div {
           clip-path: polygon(14% 95%, 21% 87%, 25% 155%, 13% 162%);
   -webkit-transform-origin: -14% 53%;
           transform-origin: -14% 53%;
-  -webkit-animation: fly44 5000ms 1290ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly44 5000ms 1290ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly44 2000ms 1290ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly44 2000ms 1290ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly44 {
   0% {
@@ -3108,8 +3108,8 @@ div {
           clip-path: polygon(19% 96%, 26% 99%, 29% 155%, 19% 156%);
   -webkit-transform-origin: 14% 108%;
           transform-origin: 14% 108%;
-  -webkit-animation: fly45 5000ms 1320ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly45 5000ms 1320ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly45 2000ms 1320ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly45 2000ms 1320ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly45 {
   0% {
@@ -3161,8 +3161,8 @@ div {
           clip-path: polygon(23% 91%, 35% 75%, 31% 157%, 24% 153%);
   -webkit-transform-origin: -20% 118%;
           transform-origin: -20% 118%;
-  -webkit-animation: fly46 5000ms 1350ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly46 5000ms 1350ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly46 2000ms 1350ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly46 2000ms 1350ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly46 {
   0% {
@@ -3214,8 +3214,8 @@ div {
           clip-path: polygon(28% 97%, 36% 79%, 39% 153%, 28% 152%);
   -webkit-transform-origin: 7% 125%;
           transform-origin: 7% 125%;
-  -webkit-animation: fly47 5000ms 1380ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly47 5000ms 1380ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly47 2000ms 1380ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly47 2000ms 1380ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly47 {
   0% {
@@ -3267,8 +3267,8 @@ div {
           clip-path: polygon(33% 95%, 45% 80%, 41% 156%, 34% 162%);
   -webkit-transform-origin: 64% 146%;
           transform-origin: 64% 146%;
-  -webkit-animation: fly48 5000ms 1410ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly48 5000ms 1410ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly48 2000ms 1410ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly48 2000ms 1410ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly48 {
   0% {
@@ -3320,8 +3320,8 @@ div {
           clip-path: polygon(38% 90%, 48% 90%, 48% 156%, 39% 154%);
   -webkit-transform-origin: 68% 109%;
           transform-origin: 68% 109%;
-  -webkit-animation: fly49 5000ms 1440ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly49 5000ms 1440ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly49 2000ms 1440ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly49 2000ms 1440ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly49 {
   0% {
@@ -3373,8 +3373,8 @@ div {
           clip-path: polygon(44% 93%, 53% 99%, 55% 157%, 43% 155%);
   -webkit-transform-origin: 12% 145%;
           transform-origin: 12% 145%;
-  -webkit-animation: fly50 5000ms 1470ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly50 5000ms 1470ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly50 2000ms 1470ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly50 2000ms 1470ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly50 {
   0% {
@@ -3426,8 +3426,8 @@ div {
           clip-path: polygon(49% 90%, 60% 90%, 59% 159%, 48% 158%);
   -webkit-transform-origin: 68% 105%;
           transform-origin: 68% 105%;
-  -webkit-animation: fly51 5000ms 1500ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly51 5000ms 1500ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly51 2000ms 12000ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly51 2000ms 12000ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly51 {
   0% {
@@ -3479,8 +3479,8 @@ div {
           clip-path: polygon(54% 97%, 63% 89%, 62% 157%, 54% 166%);
   -webkit-transform-origin: 100% 53%;
           transform-origin: 100% 53%;
-  -webkit-animation: fly52 5000ms 1530ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly52 5000ms 1530ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly52 2000ms 1530ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly52 2000ms 1530ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly52 {
   0% {
@@ -3532,8 +3532,8 @@ div {
           clip-path: polygon(58% 99%, 66% 80%, 67% 159%, 58% 164%);
   -webkit-transform-origin: 79% 63%;
           transform-origin: 79% 63%;
-  -webkit-animation: fly53 5000ms 1560ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly53 5000ms 1560ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly53 2000ms 1560ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly53 2000ms 1560ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly53 {
   0% {
@@ -3585,8 +3585,8 @@ div {
           clip-path: polygon(63% 92%, 72% 85%, 73% 151%, 64% 166%);
   -webkit-transform-origin: 47% 146%;
           transform-origin: 47% 146%;
-  -webkit-animation: fly54 5000ms 1590ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly54 5000ms 1590ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly54 2000ms 1590ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly54 2000ms 1590ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly54 {
   0% {
@@ -3638,8 +3638,8 @@ div {
           clip-path: polygon(69% 99%, 80% 90%, 79% 153%, 68% 167%);
   -webkit-transform-origin: 41% 113%;
           transform-origin: 41% 113%;
-  -webkit-animation: fly55 5000ms 1620ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly55 5000ms 1620ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly55 2000ms 1620ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly55 2000ms 1620ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly55 {
   0% {
@@ -3691,8 +3691,8 @@ div {
           clip-path: polygon(74% 99%, 82% 77%, 84% 159%, 73% 169%);
   -webkit-transform-origin: 48% 144%;
           transform-origin: 48% 144%;
-  -webkit-animation: fly56 5000ms 1650ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly56 5000ms 1650ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly56 2000ms 1650ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly56 2000ms 1650ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly56 {
   0% {
@@ -3744,8 +3744,8 @@ div {
           clip-path: polygon(78% 90%, 88% 93%, 88% 159%, 79% 175%);
   -webkit-transform-origin: 83% 60%;
           transform-origin: 83% 60%;
-  -webkit-animation: fly57 5000ms 1680ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly57 5000ms 1680ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly57 2000ms 1680ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly57 2000ms 1680ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly57 {
   0% {
@@ -3797,8 +3797,8 @@ div {
           clip-path: polygon(84% 98%, 91% 88%, 95% 157%, 84% 163%);
   -webkit-transform-origin: 130% 120%;
           transform-origin: 130% 120%;
-  -webkit-animation: fly58 5000ms 1710ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly58 5000ms 1710ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly58 2000ms 1710ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly58 2000ms 1710ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly58 {
   0% {
@@ -3850,8 +3850,8 @@ div {
           clip-path: polygon(88% 94%, 100% 83%, 96% 155%, 88% 167%);
   -webkit-transform-origin: 124% 87%;
           transform-origin: 124% 87%;
-  -webkit-animation: fly59 5000ms 1740ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly59 5000ms 1740ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly59 2000ms 1740ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly59 2000ms 1740ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly59 {
   0% {
@@ -3903,8 +3903,8 @@ div {
           clip-path: polygon(93% 93%, 101% 89%, 103% 152%, 94% 160%);
   -webkit-transform-origin: 43% 54%;
           transform-origin: 43% 54%;
-  -webkit-animation: fly60 5000ms 1770ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly60 5000ms 1770ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly60 2000ms 1770ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly60 2000ms 1770ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly60 {
   0% {
@@ -3956,8 +3956,8 @@ div {
           clip-path: polygon(-2% 149%, 7% 137%, 8% 201%, -2% 213%);
   -webkit-transform-origin: 50% 148%;
           transform-origin: 50% 148%;
-  -webkit-animation: fly61 5000ms 1800ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly61 5000ms 1800ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly61 2000ms 1800ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly61 2000ms 1800ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly61 {
   0% {
@@ -4009,8 +4009,8 @@ div {
           clip-path: polygon(4% 143%, 13% 135%, 12% 204%, 3% 206%);
   -webkit-transform-origin: -19% 188%;
           transform-origin: -19% 188%;
-  -webkit-animation: fly62 5000ms 1830ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly62 5000ms 1830ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly62 2000ms 1830ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly62 2000ms 1830ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly62 {
   0% {
@@ -4062,8 +4062,8 @@ div {
           clip-path: polygon(9% 149%, 16% 131%, 20% 205%, 9% 202%);
   -webkit-transform-origin: -26% 129%;
           transform-origin: -26% 129%;
-  -webkit-animation: fly63 5000ms 1860ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly63 5000ms 1860ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly63 2000ms 1860ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly63 2000ms 1860ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly63 {
   0% {
@@ -4115,8 +4115,8 @@ div {
           clip-path: polygon(14% 144%, 22% 125%, 21% 208%, 13% 203%);
   -webkit-transform-origin: 27% 141%;
           transform-origin: 27% 141%;
-  -webkit-animation: fly64 5000ms 1890ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly64 5000ms 1890ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly64 2000ms 1890ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly64 2000ms 1890ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly64 {
   0% {
@@ -4168,8 +4168,8 @@ div {
           clip-path: polygon(19% 140%, 28% 146%, 29% 207%, 19% 204%);
   -webkit-transform-origin: -4% 114%;
           transform-origin: -4% 114%;
-  -webkit-animation: fly65 5000ms 1920ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly65 5000ms 1920ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly65 2000ms 1920ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly65 2000ms 1920ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly65 {
   0% {
@@ -4221,8 +4221,8 @@ div {
           clip-path: polygon(24% 140%, 33% 133%, 35% 209%, 23% 211%);
   -webkit-transform-origin: -11% 120%;
           transform-origin: -11% 120%;
-  -webkit-animation: fly66 5000ms 1950ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly66 5000ms 1950ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly66 2000ms 1950ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly66 2000ms 1950ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly66 {
   0% {
@@ -4274,8 +4274,8 @@ div {
           clip-path: polygon(29% 142%, 37% 135%, 36% 202%, 28% 207%);
   -webkit-transform-origin: 58% 163%;
           transform-origin: 58% 163%;
-  -webkit-animation: fly67 5000ms 1980ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly67 5000ms 1980ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly67 2000ms 1980ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly67 2000ms 1980ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly67 {
   0% {
@@ -4327,8 +4327,8 @@ div {
           clip-path: polygon(34% 143%, 45% 146%, 43% 210%, 33% 206%);
   -webkit-transform-origin: 79% 167%;
           transform-origin: 79% 167%;
-  -webkit-animation: fly68 5000ms 2010ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly68 5000ms 2010ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly68 2000ms 2010ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly68 2000ms 2010ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly68 {
   0% {
@@ -4380,8 +4380,8 @@ div {
           clip-path: polygon(39% 140%, 49% 133%, 49% 202%, 39% 209%);
   -webkit-transform-origin: 45% 148%;
           transform-origin: 45% 148%;
-  -webkit-animation: fly69 5000ms 2040ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly69 5000ms 2040ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly69 2000ms 2040ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly69 2000ms 2040ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly69 {
   0% {
@@ -4433,8 +4433,8 @@ div {
           clip-path: polygon(43% 146%, 53% 133%, 55% 210%, 44% 216%);
   -webkit-transform-origin: 69% 184%;
           transform-origin: 69% 184%;
-  -webkit-animation: fly70 5000ms 2070ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly70 5000ms 2070ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly70 2000ms 2070ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly70 2000ms 2070ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly70 {
   0% {
@@ -4486,8 +4486,8 @@ div {
           clip-path: polygon(48% 140%, 57% 138%, 57% 203%, 49% 203%);
   -webkit-transform-origin: 44% 105%;
           transform-origin: 44% 105%;
-  -webkit-animation: fly71 5000ms 2100ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly71 5000ms 2100ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly71 2000ms 2100ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly71 2000ms 2100ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly71 {
   0% {
@@ -4539,8 +4539,8 @@ div {
           clip-path: polygon(54% 140%, 63% 135%, 61% 204%, 54% 211%);
   -webkit-transform-origin: 79% 147%;
           transform-origin: 79% 147%;
-  -webkit-animation: fly72 5000ms 2130ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly72 5000ms 2130ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly72 2000ms 2130ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly72 2000ms 2130ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly72 {
   0% {
@@ -4592,8 +4592,8 @@ div {
           clip-path: polygon(58% 141%, 66% 145%, 66% 202%, 59% 211%);
   -webkit-transform-origin: 81% 183%;
           transform-origin: 81% 183%;
-  -webkit-animation: fly73 5000ms 2160ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly73 5000ms 2160ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly73 2000ms 2160ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly73 2000ms 2160ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly73 {
   0% {
@@ -4645,8 +4645,8 @@ div {
           clip-path: polygon(63% 145%, 75% 129%, 72% 210%, 63% 216%);
   -webkit-transform-origin: 60% 110%;
           transform-origin: 60% 110%;
-  -webkit-animation: fly74 5000ms 2190ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly74 5000ms 2190ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly74 2000ms 2190ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly74 2000ms 2190ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly74 {
   0% {
@@ -4698,8 +4698,8 @@ div {
           clip-path: polygon(69% 143%, 79% 126%, 77% 205%, 68% 205%);
   -webkit-transform-origin: 43% 193%;
           transform-origin: 43% 193%;
-  -webkit-animation: fly75 5000ms 2220ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly75 5000ms 2220ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly75 2000ms 2220ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly75 2000ms 2220ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly75 {
   0% {
@@ -4751,8 +4751,8 @@ div {
           clip-path: polygon(73% 145%, 85% 142%, 83% 205%, 74% 208%);
   -webkit-transform-origin: 65% 136%;
           transform-origin: 65% 136%;
-  -webkit-animation: fly76 5000ms 2250ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly76 5000ms 2250ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly76 2000ms 2250ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly76 2000ms 2250ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly76 {
   0% {
@@ -4804,8 +4804,8 @@ div {
           clip-path: polygon(78% 141%, 88% 133%, 88% 206%, 78% 224%);
   -webkit-transform-origin: 83% 130%;
           transform-origin: 83% 130%;
-  -webkit-animation: fly77 5000ms 2280ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly77 5000ms 2280ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly77 2000ms 2280ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly77 2000ms 2280ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly77 {
   0% {
@@ -4857,8 +4857,8 @@ div {
           clip-path: polygon(84% 149%, 92% 131%, 91% 208%, 84% 216%);
   -webkit-transform-origin: 31% 200%;
           transform-origin: 31% 200%;
-  -webkit-animation: fly78 5000ms 2310ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly78 5000ms 2310ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly78 2000ms 2310ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly78 2000ms 2310ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly78 {
   0% {
@@ -4910,8 +4910,8 @@ div {
           clip-path: polygon(89% 149%, 99% 149%, 99% 206%, 89% 211%);
   -webkit-transform-origin: 85% 192%;
           transform-origin: 85% 192%;
-  -webkit-animation: fly79 5000ms 2340ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly79 5000ms 2340ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly79 2000ms 2340ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly79 2000ms 2340ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly79 {
   0% {
@@ -4963,8 +4963,8 @@ div {
           clip-path: polygon(93% 144%, 102% 148%, 105% 202%, 94% 219%);
   -webkit-transform-origin: 127% 147%;
           transform-origin: 127% 147%;
-  -webkit-animation: fly80 5000ms 2370ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly80 5000ms 2370ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly80 2000ms 2370ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly80 2000ms 2370ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly80 {
   0% {
@@ -5016,8 +5016,8 @@ div {
           clip-path: polygon(-1% 192%, 9% 187%, 8% 258%, -2% 258%);
   -webkit-transform-origin: -12% 195%;
           transform-origin: -12% 195%;
-  -webkit-animation: fly81 5000ms 2400ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly81 5000ms 2400ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly81 2000ms 2400ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly81 2000ms 2400ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly81 {
   0% {
@@ -5069,8 +5069,8 @@ div {
           clip-path: polygon(4% 192%, 12% 181%, 12% 253%, 4% 262%);
   -webkit-transform-origin: 16% 193%;
           transform-origin: 16% 193%;
-  -webkit-animation: fly82 5000ms 2430ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly82 5000ms 2430ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly82 2000ms 2430ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly82 2000ms 2430ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly82 {
   0% {
@@ -5122,8 +5122,8 @@ div {
           clip-path: polygon(8% 192%, 18% 179%, 18% 253%, 9% 273%);
   -webkit-transform-origin: 30% 206%;
           transform-origin: 30% 206%;
-  -webkit-animation: fly83 5000ms 2460ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly83 5000ms 2460ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly83 2000ms 2460ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly83 2000ms 2460ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly83 {
   0% {
@@ -5175,8 +5175,8 @@ div {
           clip-path: polygon(13% 191%, 21% 198%, 21% 258%, 14% 274%);
   -webkit-transform-origin: -34% 156%;
           transform-origin: -34% 156%;
-  -webkit-animation: fly84 5000ms 2490ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly84 5000ms 2490ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly84 2000ms 2490ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly84 2000ms 2490ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly84 {
   0% {
@@ -5228,8 +5228,8 @@ div {
           clip-path: polygon(19% 197%, 28% 185%, 27% 252%, 19% 273%);
   -webkit-transform-origin: -5% 234%;
           transform-origin: -5% 234%;
-  -webkit-animation: fly85 5000ms 2520ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly85 5000ms 2520ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly85 2000ms 2520ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly85 2000ms 2520ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly85 {
   0% {
@@ -5281,8 +5281,8 @@ div {
           clip-path: polygon(24% 192%, 35% 191%, 35% 254%, 23% 262%);
   -webkit-transform-origin: -13% 187%;
           transform-origin: -13% 187%;
-  -webkit-animation: fly86 5000ms 2550ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly86 5000ms 2550ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly86 2000ms 2550ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly86 2000ms 2550ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly86 {
   0% {
@@ -5334,8 +5334,8 @@ div {
           clip-path: polygon(29% 195%, 36% 175%, 37% 260%, 28% 260%);
   -webkit-transform-origin: 59% 216%;
           transform-origin: 59% 216%;
-  -webkit-animation: fly87 5000ms 2580ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly87 5000ms 2580ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly87 2000ms 2580ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly87 2000ms 2580ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly87 {
   0% {
@@ -5387,8 +5387,8 @@ div {
           clip-path: polygon(33% 194%, 43% 192%, 45% 254%, 33% 268%);
   -webkit-transform-origin: 29% 182%;
           transform-origin: 29% 182%;
-  -webkit-animation: fly88 5000ms 2610ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly88 5000ms 2610ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly88 2000ms 2610ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly88 2000ms 2610ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly88 {
   0% {
@@ -5440,8 +5440,8 @@ div {
           clip-path: polygon(39% 196%, 49% 189%, 50% 256%, 38% 275%);
   -webkit-transform-origin: 44% 225%;
           transform-origin: 44% 225%;
-  -webkit-animation: fly89 5000ms 2640ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly89 5000ms 2640ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly89 2000ms 2640ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly89 2000ms 2640ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly89 {
   0% {
@@ -5493,8 +5493,8 @@ div {
           clip-path: polygon(43% 194%, 54% 196%, 51% 255%, 43% 254%);
   -webkit-transform-origin: -3% 179%;
           transform-origin: -3% 179%;
-  -webkit-animation: fly90 5000ms 2670ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly90 5000ms 2670ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly90 2000ms 2670ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly90 2000ms 2670ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly90 {
   0% {
@@ -5546,8 +5546,8 @@ div {
           clip-path: polygon(48% 193%, 59% 178%, 58% 251%, 49% 261%);
   -webkit-transform-origin: 19% 166%;
           transform-origin: 19% 166%;
-  -webkit-animation: fly91 5000ms 2700ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly91 5000ms 2700ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly91 2000ms 2700ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly91 2000ms 2700ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly91 {
   0% {
@@ -5599,8 +5599,8 @@ div {
           clip-path: polygon(53% 195%, 63% 191%, 61% 253%, 53% 262%);
   -webkit-transform-origin: 30% 212%;
           transform-origin: 30% 212%;
-  -webkit-animation: fly92 5000ms 2730ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly92 5000ms 2730ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly92 2000ms 2730ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly92 2000ms 2730ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly92 {
   0% {
@@ -5652,8 +5652,8 @@ div {
           clip-path: polygon(59% 191%, 69% 186%, 69% 260%, 59% 257%);
   -webkit-transform-origin: 102% 169%;
           transform-origin: 102% 169%;
-  -webkit-animation: fly93 5000ms 2760ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly93 5000ms 2760ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly93 2000ms 2760ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly93 2000ms 2760ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly93 {
   0% {
@@ -5705,8 +5705,8 @@ div {
           clip-path: polygon(63% 198%, 71% 192%, 72% 252%, 64% 252%);
   -webkit-transform-origin: 17% 209%;
           transform-origin: 17% 209%;
-  -webkit-animation: fly94 5000ms 2790ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly94 5000ms 2790ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly94 2000ms 2790ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly94 2000ms 2790ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly94 {
   0% {
@@ -5758,8 +5758,8 @@ div {
           clip-path: polygon(68% 199%, 79% 179%, 80% 253%, 69% 274%);
   -webkit-transform-origin: 22% 174%;
           transform-origin: 22% 174%;
-  -webkit-animation: fly95 5000ms 2820ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly95 5000ms 2820ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly95 2000ms 2820ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly95 2000ms 2820ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly95 {
   0% {
@@ -5811,8 +5811,8 @@ div {
           clip-path: polygon(73% 196%, 85% 178%, 82% 258%, 73% 267%);
   -webkit-transform-origin: 28% 170%;
           transform-origin: 28% 170%;
-  -webkit-animation: fly96 5000ms 2850ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly96 5000ms 2850ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly96 2000ms 2850ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly96 2000ms 2850ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly96 {
   0% {
@@ -5864,8 +5864,8 @@ div {
           clip-path: polygon(78% 195%, 87% 195%, 89% 260%, 79% 270%);
   -webkit-transform-origin: 66% 213%;
           transform-origin: 66% 213%;
-  -webkit-animation: fly97 5000ms 2880ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly97 5000ms 2880ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly97 2000ms 2880ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly97 2000ms 2880ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly97 {
   0% {
@@ -5917,8 +5917,8 @@ div {
           clip-path: polygon(84% 194%, 95% 186%, 94% 255%, 83% 259%);
   -webkit-transform-origin: 74% 174%;
           transform-origin: 74% 174%;
-  -webkit-animation: fly98 5000ms 2910ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly98 5000ms 2910ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly98 2000ms 2910ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly98 2000ms 2910ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly98 {
   0% {
@@ -5970,8 +5970,8 @@ div {
           clip-path: polygon(88% 190%, 96% 197%, 97% 257%, 88% 274%);
   -webkit-transform-origin: 126% 246%;
           transform-origin: 126% 246%;
-  -webkit-animation: fly99 5000ms 2940ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly99 5000ms 2940ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly99 2000ms 2940ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly99 2000ms 2940ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly99 {
   0% {
@@ -6023,8 +6023,8 @@ div {
           clip-path: polygon(94% 199%, 101% 180%, 102% 258%, 93% 271%);
   -webkit-transform-origin: 79% 185%;
           transform-origin: 79% 185%;
-  -webkit-animation: fly100 5000ms 2970ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly100 5000ms 2970ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly100 2000ms 2970ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly100 2000ms 2970ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly100 {
   0% {
@@ -6076,8 +6076,8 @@ div {
           clip-path: polygon(-1% 249%, 7% 225%, 8% 302%, -1% 319%);
   -webkit-transform-origin: 23% 300%;
           transform-origin: 23% 300%;
-  -webkit-animation: fly101 5000ms 3000ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
-          animation: fly101 5000ms 3000ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+  -webkit-animation: fly101 2000ms 3000ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
+          animation: fly101 2000ms 3000ms cubic-bezier(0.36, 0.1, 0.16, 1) forwards;
 }
 @-webkit-keyframes fly101 {
   0% {
