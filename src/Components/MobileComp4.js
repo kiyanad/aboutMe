@@ -34,7 +34,16 @@ export class MobileComp3 extends Component {
         changePage: true,
         changeBar: false,
         HTML: false,
-        javascript: false
+        javascript: false,
+        react: false,
+        sass: false,
+        vba: false,
+        sql: false,
+        css: false,
+        apex:false,
+        native:false,
+        salesforce: false
+
     }
 
 
@@ -64,7 +73,16 @@ export class MobileComp3 extends Component {
         console.log("here")
          this.setState({
              HTML: true,
-             javascript: false
+             javascript: false,
+             react: false,
+             sass: false,
+             vba: false,
+             sql: false,
+        css: false,
+        apex:false,
+        native:false,
+        salesforce: false
+
          })
     }
 
@@ -72,9 +90,165 @@ export class MobileComp3 extends Component {
 
          this.setState({
              javascript: true,
-             HTML: false
+             HTML: false,
+             react: false,
+             sass: false,
+             vba: false,
+             sql: false,
+        css: false,
+        apex:false,
+        native:false,
+        salesforce: false
+
          })
     }
+    reactclicked = () => {
+
+        this.setState({
+            react: true,
+            javascript: false,
+            HTML: false,
+            sass: false,
+            vba: false,
+            sql: false,
+        css: false,
+        apex:false,
+        native:false,
+        salesforce: false
+
+        })
+   }
+
+   sassclicked = () => {
+
+    this.setState({
+        react: false,
+        javascript: false,
+        HTML: false,
+        vba: false,
+        sass: true,
+        sql: false,
+        css: false,
+        apex:false,
+        native:false,
+        salesforce: false
+
+    })
+}
+
+vbaclicked = () => {
+
+    this.setState({
+        react: false,
+        javascript: false,
+        HTML: false,
+        sass: false,
+        vba: true,
+        sql: false,
+        css: false,
+        apex:false,
+        native:false,
+        salesforce: false
+
+    })
+}
+
+vbaclicked = () => {
+
+    this.setState({
+        react: false,
+        javascript: false,
+        HTML: false,
+        sass: false,
+        vba: true, 
+        sql: false,
+        css: false,
+        apex:false,
+        native:false,
+        salesforce: false
+    })
+}
+
+sqlclicked = () => {
+
+    this.setState({
+        react: false,
+        javascript: false,
+        HTML: false,
+        sass: false,
+        vba: false,
+        sql: true,
+        native: false,
+        css: false,
+        apex:false,
+        salesforce: false
+    })
+}
+
+cssclicked = () => {
+
+    this.setState({
+        react: false,
+        javascript: false,
+        HTML: false,
+        sass: false,
+        vba: false,
+        sql: false,
+        native: false,
+        css: true,
+        apex:false,
+        salesforce: false
+    })
+}
+
+apexclicked = () => {
+
+    this.setState({
+        react: false,
+        javascript: false,
+        HTML: false,
+        sass: false,
+        vba: false,
+        sql: false,
+        native: false,
+        css: false,
+        apex:true,
+        salesforce: false
+    })
+}
+
+nativeclicked = () => {
+
+    this.setState({
+        react: false,
+        javascript: false,
+        HTML: false,
+        sass: false,
+        vba: false,
+        sql: false,
+        native: true,
+        css: false,
+        apex:false,
+        salesforce: false
+
+    })
+}
+
+salesforceclicked = () => {
+
+    this.setState({
+        react: false,
+        javascript: false,
+        HTML: false,
+        sass: false,
+        vba: false,
+        sql: false,
+        native: false,
+        css: false,
+        apex:false,
+        salesforce: true
+    })
+}
 
     clicked = () => {
         document.querySelector(".redWipe").classList.toggle("redOff")
@@ -299,31 +473,396 @@ export class MobileComp3 extends Component {
     {this.state.react?
                     <div className="" id="up">
                     <div className="html">
-                    <h3>React</h3>
-                    <div className="jsInner">
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
-                    <div className="sk-folding-cube">
-                    <div className="sk-cube1 sk-cube"></div>
-                    <div className="sk-cube2 sk-cube"></div>
-                    <div className="sk-cube4 sk-cube"></div>
-                    <div className="sk-cube3 sk-cube"></div>
-                    </div>
+                    <div id="ui">
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
+                        <div class="text">React</div>
                     </div>
                     </div>
                     </div>: 
                     <div></div>
     }
+    {this.state.sass?
+                    <div className="" id="up">
+                    <div className="html">
+                    <div id="ui">
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                        <div class="text">Sass</div>
+                    </div>
+                    </div>
+                    </div>: 
+                    <div></div>
+    }
+    {this.state.vba?
+                    <div className="" id="up">
+                    <div className="html">
+                    <div id="ui">
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                        <div class="text">VBA</div>
+                    </div>
+                    </div>
+                    </div>: 
+                    <div></div>
+    }
+        {this.state.css?
+                    <div className="" id="up">
+                    <div className="html">
+                    <div id="ui">
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                        <div class="text">CSS</div>
+                    </div>
+                    </div>
+                    </div>: 
+                    <div></div>
+    }
+        {this.state.sql?
+                    <div className="" id="up">
+                    <div className="html">
+                    <div id="ui">
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                        <div class="text">SQL</div>
+                    </div>
+                    </div>
+                    </div>: 
+                    <div></div>
+    }
+        {this.state.native?
+                    <div className="" id="up">
+                    <div className="html">
+                    <div id="ui">
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                        <div class="text">React Native</div>
+                    </div>
+                    </div>
+                    </div>: 
+                    <div></div>
+    }
+        {this.state.apex?
+                    <div className="" id="up">
+                    <div className="html">
+                    <div id="ui">
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                        <div class="text">Apex</div>
+                    </div>
+                    </div>
+                    </div>: 
+                    <div></div>
+    }
+            {this.state.salesforce?
+                    <div className="" id="up">
+                    <div className="html">
+                    <div id="ui">
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                        <div class="text">Salesforce</div>
+                    </div>
+                    </div>
+                    </div>: 
+                    <div></div>
+    }
+
 
                     <div className="col-1-of-2">
                     <div className="composition">
@@ -333,10 +872,10 @@ export class MobileComp3 extends Component {
                     <img src={sass} alt="sass" className="composition__photo composition__photo--p4" onClick={this.sassclicked}/>
                     <img src={vba} alt="vba" className="composition__photo composition__photo--p5" onClick={this.vbaclicked}/>
                     <img src={html} alt="html" className="composition__photo composition__photo--p9" onClick={this.htmlclicked}/>
-                    <img src={css} alt="html" className="composition__photo composition__photo--p7" />
-                    <img src={sql} alt="html" className="composition__photo composition__photo--p8"/>
-                    <img src={native} alt="html" className="composition__photo composition__photo--p6"/>
-                    <img src={apex} alt="html" className="composition__photo composition__photo--p10"/>
+                    <img src={css} alt="css" className="composition__photo composition__photo--p7" onClick={this.cssclicked}/>
+                    <img src={sql} alt="sql" className="composition__photo composition__photo--p8" onClick={this.sqlclicked}/>
+                    <img src={native} alt="native" className="composition__photo composition__photo--p6" onClick={this.nativeclicked}/>
+                    <img src={apex} alt="apex" className="composition__photo composition__photo--p10" onClick={this.apexclicked}/>
 
                     </div>
                     </div>
